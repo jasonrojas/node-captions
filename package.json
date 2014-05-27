@@ -11,5 +11,14 @@
   "dependencies": {
     "async": "^0.8.0",
     "array-extended": "0.0.11"
+  },
+  "devDependencies": {
+    "time-grunt": "^0.3.1",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jslint": "^1.1.12",
+    "jshint-stylish": "^0.2.0"
   }
 }
