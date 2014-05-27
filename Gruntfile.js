@@ -7,6 +7,25 @@ module.exports = function (grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        clean: ['build'],
+        mocha_istanbul: {
+            coverage: {
+                src: 'test',
+                options: {
+                    root: './',
+                    coverage: true,
+                    check: {
+                        statements: 82,
+                        branches: 52,
+                        functions: 84,
+                        lines: 83
+                    },
+                    reportFormats: ['text', 'lcov', 'cobertura'],
+                    coverageFolder: 'build/report'
+                }
+            }
+        },
         jshint: {
             options: {
                 jshintrc: '.jshintrc',
@@ -31,6 +50,7 @@ module.exports = function (grunt) {
     });
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-jslint');
-    grunt.registerTask('default', ['jshint', 'jslint']);
+    grunt.loadNpmTasks('grunt-mocha-istanbul');
+    grunt.registerTask('default', ['jshint', 'jslint', 'mocha_istanbul:coverage']);
 
 };

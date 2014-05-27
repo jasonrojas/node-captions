@@ -19,6 +19,9 @@
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-jslint": "^1.1.12",
-    "jshint-stylish": "^0.2.0"
+    "jshint-stylish": "^0.2.0",
+    "should": "^3.3.2",
+    "mocha": "^1.19.0",
+    "grunt-mocha-istanbul": "^1.4.1"
   }
 }
