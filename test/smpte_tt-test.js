@@ -1,23 +1,23 @@
 var captions = require('../captions.js'),
     should = require('should');
 
-describe('Read SCC file, generate XML', function () {
+describe('Read SCC file, generate SMPTE-TT', function () {
     var SCCFile,
         jsonObj,
-        xmlFile;
+        smpte_ttFile;
 
     before(function(done) {
         captions.scc.read('./test/test.scc', function(err, data) {
             if (err) { throw 'ERROR Reading test SCC file: ' + err; }
             SCCFile = data;
             jsonObj = captions.scc.toJSON(data);
-            xmlFile = captions.xml.generate(jsonObj);
+            smpte_ttFile = captions.smpte_tt.generate(jsonObj);
             done();
         });
     });
 
     it('should have a length of 47286', function(done) {
-        xmlFile.length.should.equal(47286);
+        smpte_ttFile.length.should.equal(47286);
         done();
     });
 

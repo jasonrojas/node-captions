@@ -3,6 +3,6 @@ module.exports = {
     srt: require('./lib/srt.js'),
     smi: require('./lib/smi.js'),
     vtt: require('./lib/vtt.js'),
-    xml: require('./lib/xml.js'),
+    smpte_tt: require('./lib/smpte_tt.js'),
     ttml: require('./lib/ttml.js')
 };
