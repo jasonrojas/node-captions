@@ -1,0 +1,9 @@
+node_modules
+config/default.json
+log
+test.js
+logs
+.git
+*.log
+.*.swp
+config/build
