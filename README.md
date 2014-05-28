@@ -4,6 +4,7 @@ node-captions is a simple module set to convert from one caption to another. Cur
 
 ## Code Example
 
+```javascript
 var captions = require('captions'),
     fs = require('fs');
 captions.scc.read('path/to/scc/file.scc', function (err, data) {
@@ -12,7 +13,7 @@ captions.scc.read('path/to/scc/file.scc', function (err, data) {
         if (err) { //handle your errors };
     })
 });
-
+```
 
 ## Motivation
 
