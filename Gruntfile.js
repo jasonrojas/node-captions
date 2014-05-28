@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = function (grunt) {
+    var codeFiles = [ 'lib/*.js' ];
     // show elapsed time at the end
     require('time-grunt')(grunt);
     // load all grunt tasks
@@ -23,6 +24,14 @@ module.exports = function (grunt) {
                     },
                     reportFormats: ['text', 'lcov', 'cobertura'],
                     coverageFolder: 'build/report'
+                }
+            }
+        },
+        jsdoc: {
+            dist: {
+                src: codeFiles,
+                options: {
+                    destination: 'build/doc'
                 }
             }
         },
@@ -51,6 +60,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-mocha-istanbul');
-    grunt.registerTask('default', ['jshint', 'jslint', 'mocha_istanbul:coverage']);
+    grunt.loadNpmTasks('grunt-jsdoc');
+    grunt.registerTask('default', ['jshint', 'jslint', 'mocha_istanbul:coverage', 'jsdoc']);
 
 };
