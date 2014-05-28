@@ -1,16 +1,15 @@
 {
-  "name": "captions",
-  "version": "0.0.0",
-  "description": "",
+  "name": "node-captions",
+  "version": "0.0.1",
+  "description": "Lightweight closed caption converter",
   "main": "captions.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha",
+    "doc": "grunt jsdoc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jason Rojas <jason.rojas@mgo.com>",
+  "license": "MIT",
   "dependencies": {
-    "async": "^0.8.0",
-    "array-extended": "0.0.11"
   },
   "devDependencies": {
     "time-grunt": "^0.3.1",

@@ -18,6 +18,8 @@ captions.scc.read('path/to/scc/file.scc', function (err, data) {
 ## Motivation
 
 This project was created so a nodeJS application can do stuff with caption files to support different players.
+Big thanks to [pycaption](https://github.com/pbs/pycaption) for being the standard for quite some time and having the needed maps for the SCC conversion.
+Some of the features I added in the headers and such (check the config dir) may need to be tuned to your liking, the ones there work for me and seem to work for the players I have tested.
 
 ## Installation
 
