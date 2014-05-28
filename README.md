@@ -1,6 +1,6 @@
 ## Synopsis
 
-node-captions is a simple module set to convert from one caption to another. Currently only supports (SCC|SRT) -> SRT|VTT|SAMI|TTML|SMPTE-TT.
+node-captions is a simple module set to convert from one caption to another. Currently only supports (SCC | SRT) -> SRT | VTT | SAMI | TTML | SMPTE-TT.
 
 ## Code Example
 
