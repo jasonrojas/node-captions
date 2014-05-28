@@ -37,4 +37,4 @@ Feel free to send pull requests in a branch.
 
 ## License
 
-[node-captions' MIT License](https://github.com/jasonrojas/node-captions/blog/master/LICENSE)
+[node-captions' MIT License](https://github.com/jasonrojas/node-captions/blob/master/LICENSE)
