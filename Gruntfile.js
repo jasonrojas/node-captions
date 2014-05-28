@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (grunt) {
-    var codeFiles = [ 'lib/*.js' ];
+    var codeFiles = [ 'lib/*.js', 'captions.js' ];
     // show elapsed time at the end
     require('time-grunt')(grunt);
     // load all grunt tasks

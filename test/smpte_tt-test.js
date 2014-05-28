@@ -16,8 +16,8 @@ describe('Read SCC file, generate SMPTE-TT', function () {
         });
     });
 
-    it('should have a length of 47286', function(done) {
-        smpte_ttFile.length.should.equal(47286);
+    it('should have a length of 47287', function(done) {
+        smpte_ttFile.length.should.equal(47287);
         done();
     });
 
