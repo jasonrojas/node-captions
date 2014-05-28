@@ -25,5 +25,16 @@
     "grunt-mocha-istanbul": "^1.4.1",
     "jsdoc": "^3.3.0-alpha5",
     "grunt-jsdoc": "^0.5.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonrojas/node-captions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonrojas/node-captions/issues"
+  },
+  "homepage": "https://github.com/jasonrojas/node-captions"
 }
