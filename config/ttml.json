@@ -11,6 +11,8 @@
                 "<region xml:id=\"pop1\" tts:origin=\"6% 79.33%\" tts:extent=\"20% 5.33%\" tts:textAlign=\"center\" tts:displayAlign=\"after\"/>",
                 "<region xml:id=\"pop3\" tts:origin=\"6% 74%\" tts:extent=\"20% 5.33%\" tts:textAlign=\"center\" tts:displayAlign=\"after\"/>",
                 "<region xml:id=\"pop4\" tts:origin=\"6% 68.67%\" tts:extent=\"20% 5.33%\" tts:textAlign=\"center\" tts:displayAlign=\"after\"/>",
+                "<region xml:id=\"pop5\" tts:origin=\"6% 64%\" tts:extent=\"20% 5.33%\" tts:textAlign=\"center\" tts:displayAlign=\"after\"/>",
+                "<region xml:id=\"pop6\" tts:origin=\"6% 60%\" tts:extent=\"20% 5.33%\" tts:textAlign=\"center\" tts:displayAlign=\"after\"/>",
                 "</layout>",
                 "</head>",
                 "<body>",
