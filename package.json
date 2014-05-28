@@ -7,7 +7,7 @@
     "test": "node_modules/mocha/bin/mocha",
     "doc": "grunt jsdoc"
   },
-  "author": "Jason Rojas <jason.rojas@mgo.com>",
+  "author": "Jason Rojas <jason@nothingbeatsaduck.com>",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.6.0"
