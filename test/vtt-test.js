@@ -4,7 +4,9 @@ var captions = require('../captions.js'),
 describe('Read SCC file, generate VTT', function () {
     var SCCFile,
         jsonObj,
-        vttFile;
+        vttFile,
+        vttMinute,
+        vttHour;
 
     before(function(done) {
         captions.scc.read('./test/test.scc', function(err, data) {
@@ -12,6 +14,8 @@ describe('Read SCC file, generate VTT', function () {
             SCCFile = data;
             jsonObj = captions.scc.toJSON(data);
             vttFile = captions.vtt.generate(jsonObj);
+            vttHour = 3600000000;
+            vttMinute = 60000000;
             done();
         });
     });
@@ -23,6 +27,14 @@ describe('Read SCC file, generate VTT', function () {
 
     it('should have a length of 632', function(done) {
         captions.scc.toJSON(SCCFile).length.should.equal(632);
+        done();
+    });
+    it('should return a timestmap with hours', function(done) {
+        captions.vtt.formatTime(vttHour).should.equal('01:00:00.000');
+        done();
+    });
+    it('should return a timestmap with no hours', function(done) {
+        captions.vtt.formatTime(vttMinute).should.equal('01:00.000');
         done();
     });
 });

@@ -13,6 +13,20 @@ describe('Reading SCC file', function () {
         });
     });
 
+    it('should error if file doesnt exist', function(done) {
+        captions.scc.read('nosuchfile', function(err, data) {
+            should.exist(err);
+            done();
+        });
+    });
+
+    it('should error if file is bad', function(done) {
+        captions.scc.read('./test/test.srt', function(err, data) {
+            err.should.equal('INVALID_SCC_FORMAT');
+            done();
+        });
+    });
+
     it('should have a length of 1267', function(done) {
         SCCFile.length.should.equal(1267);
         done();

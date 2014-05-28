@@ -40,9 +40,18 @@ describe('Reading SRT file', function () {
         generatedSRTFile.split ('\n').length.should.equal(2314);
         done();
     });
-    it ('should have a length of 511', function(done) {
-        captions.srt.toJSON(captions.srt.parse(generatedSRTFile)).length.should.equal(511);
-        done();
+    it ('should have a length of 2314', function(done) {
+        captions.srt.parse(generatedSRTFile, function(err, data) {
+            if (err) { throw "ERROR parsing SRT: " + err; }
+            data.length.should.equal(2314);
+            done();
+        });
+    });
+    it ('should throw a parse error', function(done) {
+        captions.srt.parse(badSRTFile, function(err, data) {
+            err.should.equal('INVALID_SRT_FORMAT');
+            done();
+        });
     });
 });
 
