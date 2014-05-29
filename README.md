@@ -5,6 +5,8 @@ Currently only supports (SCC | SRT) -> SRT | VTT | SAMI | TTML | SMPTE-TT.
 
 ## Code Example
 
+### Conversion from SCC to SRT
+
 ```javascript
 var captions = require('captions'),
     fs = require('fs');
@@ -12,6 +14,22 @@ var captions = require('captions'),
         if (err) { // handle your errors };
         fs.writeFile('path/to/srt/file.srt', captions.srt.generate(captions.scc.toJSON(data), function(err, result) {
             if (err) { //handle your errors };
+        });
+    });
+```
+
+### Read SCC adjust by X and write out SRT with adjusted data
+
+```javascript
+var captions = require('captions'),
+    fs = require('fs');
+    captions.scc.read('path/to/scc/file.scc', function (err, data) {
+        if (err) { // handle your errors };
+        captions.time.adjust('300', 'seconds', captions.scc.toJSON(data), function (err, adjustedCaptions) {
+            if (err) { //handle your errors };
+            fs.writeFile('path/to/srt/file.srt', captions.srt.generate(adjustedCaptions), function(err, result) {
+                if (err) { //handle your errors };
+            });
         });
     });
 ```
