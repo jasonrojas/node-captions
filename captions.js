@@ -14,5 +14,6 @@ module.exports = {
     smi: require('./lib/smi.js'),
     vtt: require('./lib/vtt.js'),
     smpte_tt: require('./lib/smpte_tt.js'),
-    ttml: require('./lib/ttml.js')
+    ttml: require('./lib/ttml.js'),
+    time: require('./lib/time.js')
 };
