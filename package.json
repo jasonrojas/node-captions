@@ -1,6 +1,6 @@
 {
   "name": "node-captions",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lightweight closed caption converter",
   "main": "captions.js",
   "scripts": {
