@@ -8,3 +8,4 @@ logs
 .*.swp
 config/build
 build/*
+.DS_Store
