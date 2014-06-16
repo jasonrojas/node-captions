@@ -16,7 +16,7 @@ describe('Read SCC file, adjust time', function () {
         });
     });
     it('this should return the same captions', function(done) {
-        captions.time.autoAdjust(jsonObj, function (err, autoAdjusted) {
+        captions.time.autoAdjust(original, function (autoAdjusted) {
             autoAdjusted.length.should.equal(jsonObj.length);
         });
         done();
