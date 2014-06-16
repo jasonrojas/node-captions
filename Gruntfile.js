@@ -22,7 +22,8 @@ module.exports = function (grunt) {
                         functions: 84,
                         lines: 83
                     },
-                    reportFormats: ['text', 'lcov', 'cobertura'],
+                    reportFormats: ['text', 'html'],
+                    //reportFormats: ['text', 'html', 'cobertura'],
                     coverageFolder: 'build/report'
                 }
             }
@@ -62,5 +63,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-mocha-istanbul');
     grunt.loadNpmTasks('grunt-jsdoc');
     grunt.registerTask('default', ['jshint', 'jslint', 'mocha_istanbul:coverage', 'jsdoc']);
+
+    grunt.event.on('coverage', function (lcov, done) {
+        if (lcov) {
+            done();
+        }
+    });
 
 };

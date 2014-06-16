@@ -8,7 +8,7 @@ describe('Reading SRT file', function () {
         readErr;
 
     before(function(done) {
-        captions.srt.read('./test/test.srt', function(err, data) {
+        captions.srt.read('./test/captions/test.srt', function(err, data) {
             if (err) { throw 'ERROR Reading test SRT file: ' + err; }
             SRTFile = data;
             badSRTFile = 'BAD FILE';
@@ -23,7 +23,7 @@ describe('Reading SRT file', function () {
         });
     });
     it ('should be an invalid format err', function(done) {
-        captions.srt.read('./test/test.scc', function(err, data) {
+        captions.srt.read('./test/captions/test.scc', function(err, data) {
             err.should.equal('INVALID_SRT_FORMAT');
             done();
         });

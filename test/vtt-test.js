@@ -9,7 +9,7 @@ describe('Read SCC file, generate VTT', function () {
         vttHour;
 
     before(function(done) {
-        captions.scc.read('./test/test.scc', function(err, data) {
+        captions.scc.read('./test/captions/test.scc', function(err, data) {
             if (err) { throw 'ERROR Reading test SCC file: ' + err; }
             SCCFile = data;
             jsonObj = captions.scc.toJSON(data);
