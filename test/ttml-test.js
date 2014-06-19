@@ -16,8 +16,8 @@ describe('Read SCC file, generate TTML', function () {
         });
     });
 
-    it('should have a length of 48030', function(done) {
-        ttmlFile.length.should.equal(48030);
+    it('should have a length of 48034', function(done) {
+        ttmlFile.length.should.equal(48034);
         done();
     });
 
