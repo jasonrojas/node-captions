@@ -9,3 +9,5 @@ logs
 config/build
 build/*
 .DS_Store
+cctemp/*
+generate.js
