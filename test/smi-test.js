@@ -16,8 +16,8 @@ describe('Read SCC file, generate SAMI', function () {
         });
     });
 
-    it('should have a length of 37602', function(done) {
-        samiFile.length.should.equal(37602);
+    it('should have a length of 37623', function(done) {
+        samiFile.length.should.equal(37623);
         done();
     });
 

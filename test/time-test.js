@@ -15,12 +15,6 @@ describe('Read SCC file, adjust time', function () {
             done();
         });
     });
-    it('this should return the same captions', function(done) {
-        captions.time.autoAdjust(original, function (autoAdjusted) {
-            autoAdjusted.length.should.equal(jsonObj.length);
-            done();
-        });
-    });
     it('this should zero out too many captions', function(done) {
         captions.time.adjust('-36000000', 'seconds', jsonObj, function (err, noCaptions) {
             err.should.equal('ERROR_ADJUSTMENT_ZEROS_CAPTIONS');
