@@ -8,7 +8,7 @@ Currently only supports (SCC | SRT) -> SRT | VTT | SAMI | TTML | SMPTE-TT.
 ### Conversion from SCC to SRT
 
 ```javascript
-var captions = require('captions'),
+var captions = require('node-captions'),
     fs = require('fs');
     captions.scc.read('path/to/scc/file.scc', function (err, data) {
         if (err) { // handle your errors };
@@ -21,7 +21,7 @@ var captions = require('captions'),
 ### Read SCC adjust by X and write out SRT with adjusted data
 
 ```javascript
-var captions = require('captions'),
+var captions = require('node-captions'),
     fs = require('fs');
     captions.scc.read('path/to/scc/file.scc', function (err, data) {
         if (err) { // handle your errors };
