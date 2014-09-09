@@ -7,7 +7,7 @@ describe('Read SCC file, adjust time', function () {
         jsonObj;
 
     before(function(done) {
-        captions.scc.read('./test/captions/time-test.scc', function(err, data) {
+        captions.scc.read('./test/captions/time-test.scc', {}, function(err, data) {
             if (err) { throw 'ERROR Reading test SCC file: ' + err; }
             SCCFile = data;
             jsonObj = captions.scc.toJSON(data);
@@ -29,7 +29,7 @@ describe('Read SCC file, adjust time', function () {
     });
 
     it('the first time code should be 1 hour more', function(done) {
-        captions.scc.read('./test/captions/time-test.scc', function(err, data) {
+        captions.scc.read('./test/captions/time-test.scc', {}, function(err, data) {
             captions.time.adjust('3600', 'seconds', captions.scc.toJSON(data), function (err, adjustedCaptions) {
                 if (err) { throw 'ERROR ADJUSTING CAPTIONS: ' + err;}
                 var oldTime = original[0].startTimeMicro;
