@@ -6,7 +6,7 @@ describe('Reading SCC file', function () {
         readErr;
 
     before(function(done) {
-        captions.scc.read('./test/captions/test.scc', function(err, data) {
+        captions.scc.read('./test/captions/test.scc', {}, function(err, data) {
             if (err) { throw 'ERROR Reading test SCC file: ' + err; }
             SCCFile = data;
             done();
@@ -14,14 +14,14 @@ describe('Reading SCC file', function () {
     });
 
     it('should error if file doesnt exist', function(done) {
-        captions.scc.read('nosuchfile', function(err, data) {
+        captions.scc.read('nosuchfile', {}, function(err, data) {
             should.exist(err);
             done();
         });
     });
 
     it('should error if file is bad', function(done) {
-        captions.scc.read('./test/captions/test.srt', function(err, data) {
+        captions.scc.read('./test/captions/test.srt', {}, function(err, data) {
             err.should.equal('INVALID_SCC_FORMAT');
             done();
         });

@@ -7,7 +7,7 @@ describe('Read SCC file, generate SAMI', function () {
         samiFile;
 
     before(function(done) {
-        captions.scc.read('./test/captions/test.scc', function(err, data) {
+        captions.scc.read('./test/captions/test.scc', {}, function(err, data) {
             if (err) { throw 'ERROR Reading test SCC file: ' + err; }
             SCCFile = data;
             jsonObj = captions.scc.toJSON(data);

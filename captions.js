@@ -8,6 +8,9 @@
 * @returns An instance of the node-captions module.
 */
 
+var iconv = require('iconv-lite');
+iconv.extendNodeEncodings();
+
 module.exports = {
     scc: require('./lib/scc.js'),
     srt: require('./lib/srt.js'),
