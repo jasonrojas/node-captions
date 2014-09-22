@@ -10,7 +10,7 @@ Currently only supports (SCC | SRT) -> SRT | VTT | SAMI | TTML | SMPTE-TT.
 ```javascript
 var captions = require('node-captions'),
     fs = require('fs');
-    captions.scc.read('path/to/scc/file.scc', function (err, data) {
+    captions.scc.read('path/to/scc/file.scc', {}, function (err, data) {
         if (err) { // handle your errors };
         fs.writeFile('path/to/srt/file.srt', captions.srt.generate(captions.scc.toJSON(data), function(err, result) {
             if (err) { //handle your errors };
@@ -23,7 +23,7 @@ var captions = require('node-captions'),
 ```javascript
 var captions = require('node-captions'),
     fs = require('fs');
-    captions.scc.read('path/to/scc/file.scc', function (err, data) {
+    captions.scc.read('path/to/scc/file.scc', {}, function (err, data) {
         if (err) { // handle your errors };
         captions.time.adjust('300', 'seconds', captions.scc.toJSON(data), function (err, adjustedCaptions) {
             if (err) { //handle your errors };
