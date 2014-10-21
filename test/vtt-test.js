@@ -20,8 +20,8 @@ describe('Read SCC file, generate VTT', function () {
         });
     });
 
-    it('should have a length of 26107', function(done) {
-        vttFile.length.should.equal(26107);
+    it('should have a length of 26108', function(done) {
+        vttFile.length.should.equal(26108);
         done();
     });
 
