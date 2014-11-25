@@ -25,8 +25,8 @@ describe('Read SCC file, generate VTT', function () {
         done();
     });
 
-    it('should have a length of 632', function(done) {
-        captions.scc.toJSON(SCCFile).length.should.equal(632);
+    it('should have a length of 511', function(done) {
+        captions.scc.toJSON(SCCFile).length.should.equal(511);
         done();
     });
     it('should return a timestmap with hours', function(done) {
