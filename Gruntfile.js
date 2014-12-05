@@ -41,11 +41,11 @@ module.exports = function (grunt) {
                 jshintrc: '.jshintrc',
                 reporter: require('jshint-stylish')
             },
-            all: ['Gruntfile.js', '*.js', 'lib/*.js']
+	    all: ['Gruntfile.js', codeFiles]
         },
         jslint: {
             server: {
-                src: ['*.js', 'lib/*.js'],
+	        src: codeFiles,
                 directives: {
                     node: true,
                     todo: true,
