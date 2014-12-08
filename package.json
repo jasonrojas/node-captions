@@ -4,8 +4,8 @@
   "description": "Lightweight closed caption converter",
   "main": "captions.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha",
-    "doc": "grunt jsdoc"
+    "test": "grunt",
+    "jsdoc": "grunt jsdoc"
   },
   "author": "Jason Rojas <jason@nothingbeatsaduck.com>",
   "license": "MIT",

@@ -1,9 +1,10 @@
-## Synopsis
+Synopsis
+--------
 
-node-captions is a simple module set to convert from one caption to another. 
-Currently only supports (SCC | SRT) -> SRT | VTT | SAMI | TTML | SMPTE-TT.
+node-captions is a simple module set to convert from one caption to another. Currently only supports (SCC | SRT) -> SRT | VTT | SAMI | TTML | SMPTE-TT.
 
-## Code Example
+Code Example
+------------
 
 ### Conversion from SCC to SRT
 
@@ -34,29 +35,32 @@ var captions = require('node-captions'),
     });
 ```
 
-## Motivation
+Motivation
+----------
 
-This project was created so a nodeJS application can do stuff with caption files to support different players.
-Big thanks to [pycaption](https://github.com/pbs/pycaption) for being the standard for quite some time and having the needed maps for the SCC conversion.
-Some of the features I added in the headers and such (check the config dir) may need to be tuned to your liking, the ones there work for me and seem to work for the players I have tested.
+This project was created so a nodeJS application can do stuff with caption files to support different players. Big thanks to [pycaption](https://github.com/pbs/pycaption) for being the standard for quite some time and having the needed maps for the SCC conversion. Some of the features I added in the headers and such (check the config dir) may need to be tuned to your liking, the ones there work for me and seem to work for the players I have tested.
 
-## Installation
+Installation
+------------
 
 `npm install node-captions`
 
-## API Reference
+API Reference
+-------------
 
-`grunt jsdoc`
+`npm jsdoc`
 
+Tests
+-----
 
-## Tests
+`npm test`
 
-`mocha`
-
-## Contributors
+Contributors
+------------
 
 Feel free to send pull requests in a branch.
 
-## License
+License
+-------
 
 [node-captions' MIT License](https://github.com/jasonrojas/node-captions/blob/master/LICENSE)
