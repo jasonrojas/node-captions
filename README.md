@@ -64,3 +64,4 @@ License
 -------
 
 [node-captions' MIT License](https://github.com/jasonrojas/node-captions/blob/master/LICENSE)
+
