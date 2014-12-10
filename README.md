@@ -1,5 +1,4 @@
-![Travis CI]
-(https://api.travis-ci.org/jasonrojas/node-captions.png?branch=master)
+[![Build Status](https://travis-ci.org/jasonrojas/node-captions.svg?branch=master)](https://travis-ci.org/jasonrojas/node-captions)
 
 Synopsis
 --------
