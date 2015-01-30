@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/ns/ttml" xmlns:tt="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="en-US" ttp:timeBase="smpte" ttp:frameRate="24" ttp:frameRateMultiplier="1000 1001" ttp:dropMode="nonDrop">
+<head>
+<styling>
+<style xml:id="normal" tts:color="white" tts:backgroundColor="black" tts:opacity="0.70" tts:fontFamily="monospace" tts:fontSize="80%" tts:fontWeight="normal" tts:fontStyle="normal"/>
+</styling>
+<layout>
+<region xml:id="pop2" tts:origin="6% 84.67%" tts:extent="20% 5.33%" tts:textAlign="center" tts:displayAlign="after"/>
+<region xml:id="pop1" tts:origin="6% 79.33%" tts:extent="20% 5.33%" tts:textAlign="center" tts:displayAlign="after"/>
+<region xml:id="pop3" tts:origin="6% 74%" tts:extent="20% 5.33%" tts:textAlign="center" tts:displayAlign="after"/>
+<region xml:id="pop4" tts:origin="6% 68.67%" tts:extent="20% 5.33%" tts:textAlign="center" tts:displayAlign="after"/>
+</layout>
+</head>
+<body>
+<div>
+<p region="pop1" begin="00:00:05:77" style="normal" end="00:00:21:88">    HI. IT'S ME, WHYATT.</p>
+<p region="pop1" begin="00:00:06:80" style="normal" end="00:00:32:43">  READY TO GO ON</p>
+<p region="pop2" begin="00:00:06:80" style="normal" end="00:00:32:43">    A READING ADVENTURE?</p>
+<p region="pop1" begin="00:00:08:54" style="normal" end="00:00:14:94">  SUPER!</p>
+<p region="pop1" begin="00:00:10:67" style="normal" end="00:00:11:34">&nbsp;</p>
+<p region="pop1" begin="00:00:11:57" style="normal" end="00:00:20:08">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:00:12:77" style="normal" end="00:00:29:66">      IT'S "KING MIDAS"!</p>
+<p region="pop1" begin="00:00:16:18" style="normal" end="00:00:21:02">IN THIS STORY, WE'LL</p>
+<p region="pop2" begin="00:00:16:18" style="normal" end="00:00:21:02">USE THE ALPHABET...</p>
+<p region="pop1" begin="00:00:18:01" style="normal" end="00:00:18:01">&nbsp;</p>
+<p region="pop1" begin="00:00:19:85" style="normal" end="00:00:50:71">      PRACTISE THE MAGIC</p>
+<p region="pop2" begin="00:00:19:85" style="normal" end="00:00:50:71">      OF SPELLING...</p>
+<p region="pop1" begin="00:00:22:92" style="normal" end="00:00:23:82">&nbsp;</p>
+<p region="pop1" begin="00:00:25:02" style="normal" end="00:00:25:02">AND USE THE POWER TO READ</p>
+<p region="pop2" begin="00:00:25:02" style="normal" end="00:00:25:02">TO CHANGE THE STORY.</p>
+<p region="pop1" begin="00:00:27:52" style="normal" end="00:00:28:02">&nbsp;</p>
+<p region="pop1" begin="00:00:28:99" style="normal" end="00:00:46:41">      LET'S GO!</p>
+<p region="pop1" begin="00:00:32:26" style="normal" end="00:00:32:49">&nbsp;</p>
+<p region="pop1" begin="00:00:34:13" style="normal" end="00:00:36:73">      "SUPER WHY" IS FUNDED BY:</p>
+<p region="pop1" begin="00:00:36:30" style="normal" end="00:00:47:24">      ♪♪ WHO ANSWERS THE CALL</p>
+<p region="pop2" begin="00:00:36:30" style="normal" end="00:00:47:24">FOR FRIENDS IN NEED? ♪♪</p>
+<p region="pop1" begin="00:00:39:63" style="normal" end="00:00:53:45">      ♪♪ SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:00:42:87" style="normal" end="00:01:02:06">      ♪♪ SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:00:45:17" style="normal" end="00:00:49:98">    ♪♪ HE'S THE GUY</p>
+<p region="pop2" begin="00:00:45:17" style="normal" end="00:00:49:98">    HE'S SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:00:46:91" style="normal" end="00:01:20:74">      ♪♪ WHO'S GOT THE POWER</p>
+<p region="pop2" begin="00:00:46:91" style="normal" end="00:01:20:74">THE POWER TO READ? ♪♪</p>
+<p region="pop1" begin="00:00:50:75" style="normal" end="00:01:19:47">  ♪♪ WHO LOOKS INTO BOOKS</p>
+<p region="pop2" begin="00:00:50:75" style="normal" end="00:01:19:47">  FOR THE ANSWERS WE NEED? ♪♪</p>
+<p region="pop1" begin="00:00:54:28" style="normal" end="00:00:59:65">      ♪♪ SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:00:57:45" style="normal" end="00:01:06:66">      ♪♪ SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:00:59:72" style="normal" end="00:01:25:08">♪♪ AND THE SUPER READERS</p>
+<p region="pop2" begin="00:00:59:72" style="normal" end="00:01:25:08">      WE'RE GONNA FLY ♪♪</p>
+<p region="pop1" begin="00:01:01:49" style="normal" end="00:01:09:73">  ♪♪ COME ALONG ♪♪</p>
+<p region="pop1" begin="00:01:04:66" style="normal" end="00:01:22:08">      ♪♪ WITH THE SUPER READERS ♪♪</p>
+<p region="pop1" begin="00:01:06:66" style="normal" end="00:01:32:49">    ♪♪ ADVENTURE WAITS WHEN</p>
+<p region="pop2" begin="00:01:06:66" style="normal" end="00:01:32:49">    YOU'RE WITH SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:01:08:70" style="normal" end="00:01:27:08">♪♪ SUPER WHY AND</p>
+<p region="pop2" begin="00:01:08:70" style="normal" end="00:01:27:08">THE SUPER READERS ♪♪</p>
+<p region="pop1" begin="00:01:14:30" style="normal" end="00:01:17:57">♪♪ YEAH ♪♪</p>
+<p region="pop1" begin="00:01:17:77" style="normal" end="00:01:38:09">♪♪ SUPER WHY AND</p>
+<p region="pop2" begin="00:01:17:77" style="normal" end="00:01:38:09">THE SUPER READERS ♪♪</p>
+<p region="pop1" begin="00:01:19:71" style="normal" end="00:01:46:97">    ♪♪ ADVENTURE WAITS WHEN</p>
+<p region="pop2" begin="00:01:19:71" style="normal" end="00:01:46:97">    YOU'RE WITH SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:01:23:38" style="normal" end="00:01:23:68">&nbsp;</p>
+<p region="pop1" begin="00:01:25:35" style="normal" end="00:01:31:75">    ♪♪ YEAH! SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:01:29:55" style="normal" end="00:01:36:56">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:01:31:49" style="normal" end="00:01:37:49">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:01:35:62" style="normal" end="00:01:36:16">&nbsp;</p>
+<p region="pop1" begin="00:01:36:52" style="normal" end="00:01:49:10">    HI! SO GLAD</p>
+<p region="pop2" begin="00:01:36:52" style="normal" end="00:01:49:10">    YOU'RE HERE.</p>
+<p region="pop1" begin="00:01:49:30" style="normal" end="00:01:52:31">IT'S ME, WHYATT!</p>
+<p region="pop1" begin="00:01:52:01" style="normal" end="00:02:05:52">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:01:53:58" style="normal" end="00:01:54:04">&nbsp;</p>
+<p region="pop1" begin="00:01:56:78" style="normal" end="00:02:19:47">      WELCOME TO</p>
+<p region="pop2" begin="00:01:56:78" style="normal" end="00:02:19:47">    STORYBROOK VILLAGE,</p>
+<p region="pop1" begin="00:01:59:58" style="normal" end="00:02:13:60">  WHERE ALL OUR</p>
+<p region="pop2" begin="00:01:59:58" style="normal" end="00:02:13:60">FAIRY-TALE FRIENDS LIVE!</p>
+<p region="pop1" begin="00:02:01:68" style="normal" end="00:02:16:43">      [ Cellphone ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:02:04:35" style="normal" end="00:02:06:92">OH LOOK!</p>
+<p region="pop1" begin="00:02:06:42" style="normal" end="00:02:06:72">&nbsp;</p>
+<p region="pop1" begin="00:02:07:36" style="normal" end="00:02:12:96">PIG'S PLAYING</p>
+<p region="pop2" begin="00:02:07:36" style="normal" end="00:02:12:96">WITH A TOY CAR.</p>
+<p region="pop1" begin="00:02:08:79" style="normal" end="00:02:16:80">  COOL!</p>
+<p region="pop1" begin="00:02:10:73" style="normal" end="00:02:22:74">  LET'S GO CHECK IT OUT!</p>
+<p region="pop1" begin="00:02:11:93" style="normal" end="00:02:23:94">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:02:13:53" style="normal" end="00:02:17:93">COME ON!</p>
+<p region="pop1" begin="00:02:18:83" style="normal" end="00:02:29:34">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:02:20:37" style="normal" end="00:02:24:11">  VROOM, VROOM!</p>
+<p region="pop1" begin="00:02:24:27" style="normal" end="00:02:25:87">  ZOOM!</p>
+<p region="pop1" begin="00:02:26:41" style="normal" end="00:02:30:95">[ Imitating brakes ]</p>
+<p region="pop1" begin="00:02:28:18" style="normal" end="00:02:28:54">HI, PIG!</p>
+<p region="pop1" begin="00:02:29:48" style="normal" end="00:02:35:48">    OH HI, WHYATT!</p>
+<p region="pop1" begin="00:02:30:48" style="normal" end="00:02:36:82">LOOK AT</p>
+<p region="pop2" begin="00:02:30:48" style="normal" end="00:02:36:82">MY COOL CAR!</p>
+<p region="pop1" begin="00:02:31:95" style="normal" end="00:02:42:36">VROOM-VROOM!</p>
+<p region="pop1" begin="00:02:33:95" style="normal" end="00:02:45:16">OH, I LOVE IT!</p>
+<p region="pop1" begin="00:02:35:68" style="normal" end="00:02:41:56">÷÷ME, TOO!</p>
+<p region="pop1" begin="00:02:36:85" style="normal" end="00:02:55:07">WATCH IT</p>
+<p region="pop2" begin="00:02:36:85" style="normal" end="00:02:55:07">GO REALLY,</p>
+<p region="pop1" begin="00:02:37:85" style="normal" end="00:02:51:87">      VROOM, VROOM!</p>
+<p region="pop1" begin="00:02:40:99" style="normal" end="00:02:53:50">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:02:42:72" style="normal" end="00:02:48:40">WHOA!</p>
+<p region="pop1" begin="00:02:45:86" style="normal" end="00:03:26:50">HEY, WHYATT, YOU</p>
+<p region="pop2" begin="00:02:45:86" style="normal" end="00:03:26:50">KNOW WHAT WOULD</p>
+<p region="pop1" begin="00:02:50:57" style="normal" end="00:02:54:57">WHAT?</p>
+<p region="pop1" begin="00:02:52:27" style="normal" end="00:02:54:07">    MORE TOY CARS!</p>
+<p region="pop1" begin="00:02:53:47" style="normal" end="00:03:04:28">      THEN I COULD</p>
+<p region="pop2" begin="00:02:53:47" style="normal" end="00:03:04:28">      RACE ALL OF THEM!</p>
+<p region="pop1" begin="00:02:54:77" style="normal" end="00:03:07:38">YEAH, THAT</p>
+<p region="pop2" begin="00:02:54:77" style="normal" end="00:03:07:38">WOULD BE FUN.</p>
+<p region="pop1" begin="00:02:57:11" style="normal" end="00:03:12:99">    YEAH! BUT...</p>
+<p region="pop1" begin="00:02:58:97" style="normal" end="00:03:19:79">  I ONLY HAVE</p>
+<p region="pop2" begin="00:02:58:97" style="normal" end="00:03:19:79">  THIS ONE CAR.</p>
+<p region="pop1" begin="00:03:01:04" style="normal" end="00:03:20:13">      I WANT MORE CARS!</p>
+<p region="pop1" begin="00:03:03:88" style="normal" end="00:03:22:80">THIS SOUNDS LIKE</p>
+<p region="pop2" begin="00:03:03:88" style="normal" end="00:03:22:80">A SUPER BIG PROBLEM.</p>
+<p region="pop1" begin="00:03:06:41" style="normal" end="00:03:06:65">&nbsp;</p>
+<p region="pop1" begin="00:03:07:42" style="normal" end="00:03:15:59">    AND A SUPER BIG</p>
+<p region="pop2" begin="00:03:07:42" style="normal" end="00:03:15:59">    PROBLEM NEEDS US...</p>
+<p region="pop1" begin="00:03:10:08" style="normal" end="00:03:29:90">      THE SUPER READERS!</p>
+<p region="pop1" begin="00:03:12:75" style="normal" end="00:03:30:91">WE NEED TO CALL THE REST</p>
+<p region="pop2" begin="00:03:12:75" style="normal" end="00:03:30:91">OF THE SUPER READERS.</p>
+<p region="pop1" begin="00:03:14:66" style="normal" end="00:03:34:74">      CALL THEM WITH ME!</p>
+<p region="pop2" begin="00:03:14:66" style="normal" end="00:03:34:74">      [ Cellphone ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:03:17:46" style="normal" end="00:03:27:60">      SAY, "CALLING ALL</p>
+<p region="pop2" begin="00:03:17:46" style="normal" end="00:03:27:60">      SUPER READERS!"</p>
+<p region="pop1" begin="00:03:19:23" style="normal" end="00:03:20:66">  Children: [ In audience ]</p>
+<p region="pop2" begin="00:03:19:23" style="normal" end="00:03:20:66">CALLING ALL</p>
+<p region="pop1" begin="00:03:21:96" style="normal" end="00:04:02:64">[ Remote phone ringing ]</p>
+<p region="pop2" begin="00:03:21:96" style="normal" end="00:04:02:64">      TO THE BOOK CLUB!</p>
+<p region="pop1" begin="00:03:23:97" style="normal" end="00:03:52:36">      Children:</p>
+<p region="pop2" begin="00:03:23:97" style="normal" end="00:03:52:36">      TO THE BOOK CLUB!</p>
+<p region="pop1" begin="00:03:26:20" style="normal" end="00:03:26:20">COME ON,</p>
+<p region="pop2" begin="00:03:26:20" style="normal" end="00:03:26:20">      TO THE BOOK CLUB!</p>
+<p region="pop1" begin="00:03:27:74" style="normal" end="00:03:28:27">&nbsp;</p>
+<p region="pop1" begin="00:03:28:80" style="normal" end="00:03:37:81">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:03:30:77" style="normal" end="00:03:40:42">    WHYATT HERE.</p>
+<p region="pop1" begin="00:03:37:41" style="normal" end="00:03:40:42">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:03:38:68" style="normal" end="00:03:45:69">"P" IS FOR PIG!</p>
+<p region="pop1" begin="00:03:42:62" style="normal" end="00:03:48:62">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:03:44:19" style="normal" end="00:04:06:44">RED RIDING HOOD</p>
+<p region="pop2" begin="00:03:44:19" style="normal" end="00:04:06:44">ROLLIN' IN!</p>
+<p region="pop1" begin="00:03:46:55" style="normal" end="00:03:51:56">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:03:48:82" style="normal" end="00:04:02:64">PRINCESS PEA</p>
+<p region="pop2" begin="00:03:48:82" style="normal" end="00:04:02:64">AT YOUR SERVICE!</p>
+<p region="pop1" begin="00:03:52:93" style="normal" end="00:04:00:64">AND YOU,</p>
+<p region="pop1" begin="00:03:55:90" style="normal" end="00:03:56:56">&nbsp;</p>
+<p region="pop1" begin="00:03:59:47" style="normal" end="00:04:02:74">SAY YOUR NAME.</p>
+<p region="pop1" begin="00:04:00:60" style="normal" end="00:04:12:35">      GREAT. WE'RE</p>
+<p region="pop2" begin="00:04:00:60" style="normal" end="00:04:12:35">      ALL HERE.</p>
+<p region="pop1" begin="00:04:02:27" style="normal" end="00:04:02:30">&nbsp;</p>
+<p region="pop1" begin="00:04:04:54" style="normal" end="00:04:12:95">TOGETHER, WE WILL</p>
+<p region="pop2" begin="00:04:04:54" style="normal" end="00:04:12:95">SOLVE PIG'S PROBLEM!</p>
+<p region="pop1" begin="00:04:06:51" style="normal" end="00:04:09:71">LET'S GO!</p>
+<p region="pop1" begin="00:04:09:38" style="normal" end="00:04:11:38">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:04:10:51" style="normal" end="00:04:16:12">    [ Electronic beeps ]</p>
+<p region="pop1" begin="00:04:20:12" style="normal" end="00:04:31:40">OKAY, PIG...</p>
+<p region="pop1" begin="00:04:21:76" style="normal" end="00:04:30:77">STATE YOUR</p>
+<p region="pop2" begin="00:04:21:76" style="normal" end="00:04:30:77">PROBLEM.</p>
+<p region="pop1" begin="00:04:23:02" style="normal" end="00:04:49:12">      I HAVE ONE</p>
+<p region="pop2" begin="00:04:23:02" style="normal" end="00:04:49:12">    REALLY FUN TOY CAR,</p>
+<p region="pop1" begin="00:04:24:46" style="normal" end="00:04:24:66">&nbsp;</p>
+<p region="pop1" begin="00:04:26:03" style="normal" end="00:04:37:54">BUT I WANT MORE.</p>
+<p region="pop1" begin="00:04:29:30" style="normal" end="00:04:30:06">MORE CARS?</p>
+<p region="pop2" begin="00:04:29:30" style="normal" end="00:04:30:06">    MORE CARS?</p>
+<p region="pop1" begin="00:04:31:47" style="normal" end="00:04:37:27">WHAT DO I</p>
+<p region="pop2" begin="00:04:31:47" style="normal" end="00:04:37:27">DO IF I WANT</p>
+<p region="pop1" begin="00:04:33:64" style="normal" end="00:04:39:51">  GOOD QUESTION.</p>
+<p region="pop1" begin="00:04:37:04" style="normal" end="00:04:51:62">WHEN WE HAVE A QUESTION,</p>
+<p region="pop1" begin="00:04:38:94" style="normal" end="00:04:50:95">      WE LOOK...</p>
+<p region="pop1" begin="00:04:40:11" style="normal" end="00:05:01:80">    All:</p>
+<p region="pop2" begin="00:04:40:11" style="normal" end="00:05:01:80">      IN A BOOK!</p>
+<p region="pop1" begin="00:04:41:11" style="normal" end="00:05:10:30">      WHICH BOOK</p>
+<p region="pop2" begin="00:04:41:11" style="normal" end="00:05:10:30">      SHOULD WE LOOK IN?</p>
+<p region="pop1" begin="00:04:42:64" style="normal" end="00:04:52:55">PEAS AND CARROTS,</p>
+<p region="pop2" begin="00:04:42:64" style="normal" end="00:04:52:55">CARROTS AND PEAS.</p>
+<p region="pop1" begin="00:04:44:61" style="normal" end="00:04:44:95">&nbsp;</p>
+<p region="pop1" begin="00:04:45:78" style="normal" end="00:05:00:80">  BOOK COME OUT,</p>
+<p region="pop2" begin="00:04:45:78" style="normal" end="00:05:00:80">PLEASE, PLEASE, PLEASE!</p>
+<p region="pop1" begin="00:04:48:78" style="normal" end="00:04:49:28">&nbsp;</p>
+<p region="pop1" begin="00:04:50:22" style="normal" end="00:05:20:11">    LET'S READ THE TITLE</p>
+<p region="pop2" begin="00:04:50:22" style="normal" end="00:05:20:11">  OF THIS BOOK.</p>
+<p region="pop1" begin="00:04:52:89" style="normal" end="00:04:53:49">&nbsp;</p>
+<p region="pop1" begin="00:04:57:09" style="normal" end="00:05:13:91">    WE KNOW WHAT TO DO.</p>
+<p region="pop1" begin="00:04:59:03" style="normal" end="00:04:59:76">&nbsp;</p>
+<p region="pop1" begin="00:05:02:33" style="normal" end="00:05:03:20">WE NEED TO JUMP</p>
+<p region="pop2" begin="00:05:02:33" style="normal" end="00:05:03:20">INTO THIS BOOK...</p>
+<p region="pop1" begin="00:05:03:70" style="normal" end="00:05:18:11">    AND FIND THE ANSWER</p>
+<p region="pop2" begin="00:05:03:70" style="normal" end="00:05:18:11">    TO PIG'S QUESTION.</p>
+<p region="pop1" begin="00:05:05:63" style="normal" end="00:05:05:97">&nbsp;</p>
+<p region="pop1" begin="00:05:07:30" style="normal" end="00:05:07:30">FIRST, WE LOOK</p>
+<p region="pop2" begin="00:05:07:30" style="normal" end="00:05:07:30">FOR SUPER LETTERS.</p>
+<p region="pop1" begin="00:05:09:67" style="normal" end="00:05:10:04">&nbsp;</p>
+<p region="pop1" begin="00:05:10:71" style="normal" end="00:05:18:31">AND THEN, PUT THEM IN...</p>
+<p region="pop1" begin="00:05:13:81" style="normal" end="00:05:14:31">&nbsp;</p>
+<p region="pop1" begin="00:05:15:14" style="normal" end="00:05:33:49">      OUR SUPER DUPER...</p>
+<p region="pop1" begin="00:05:17:58" style="normal" end="00:05:22:38">      COMPUTER!</p>
+<p region="pop1" begin="00:05:19:11" style="normal" end="00:05:35:13">  SUPER DUPER COMPUTER,</p>
+<p region="pop1" begin="00:05:21:68" style="normal" end="00:05:33:43">  HOW MANY SUPER LETTERS</p>
+<p region="pop2" begin="00:05:21:68" style="normal" end="00:05:33:43">    DO WE NEED?</p>
+<p region="pop1" begin="00:05:23:48" style="normal" end="00:05:26:32">    [ Beeping ]</p>
+<p region="pop1" begin="00:05:25:75" style="normal" end="00:05:35:30">      OH! IN THIS STORY,</p>
+<p region="pop1" begin="00:05:27:82" style="normal" end="00:05:28:32">&nbsp;</p>
+<p region="pop1" begin="00:05:29:49" style="normal" end="00:05:34:00">  WE NEED EIGHT</p>
+<p region="pop2" begin="00:05:29:49" style="normal" end="00:05:34:00">  SUPER LETTERS!</p>
+<p region="pop1" begin="00:05:31:66" style="normal" end="00:05:38:33">  AND THEN WE'LL GET...</p>
+<p region="pop1" begin="00:05:34:06" style="normal" end="00:06:18:84">      [ Triumphant ♪♪♪♪♪♪ ]</p>
+<p region="pop2" begin="00:05:34:06" style="normal" end="00:06:18:84">OUR SUPER STORY ANSWER!</p>
+<p region="pop1" begin="00:05:38:90" style="normal" end="00:05:39:47">&nbsp;</p>
+<p region="pop1" begin="00:05:43:44" style="normal" end="00:05:44:64">  READY?</p>
+<p region="pop1" begin="00:05:45:84" style="normal" end="00:05:52:85">All:</p>
+<p region="pop2" begin="00:05:45:84" style="normal" end="00:05:52:85">READY!</p>
+<p region="pop1" begin="00:05:47:38" style="normal" end="00:05:47:74">ARMS IN!</p>
+<p region="pop1" begin="00:05:49:04" style="normal" end="00:05:59:55">PUT YOUR ARM IN.</p>
+<p region="pop1" begin="00:05:51:01" style="normal" end="00:06:01:02">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:05:52:45" style="normal" end="00:05:54:55">Whyatt:</p>
+<p region="pop2" begin="00:05:52:45" style="normal" end="00:05:54:55">SUPER READERS...</p>
+<p region="pop1" begin="00:05:56:15" style="normal" end="00:06:15:37">    All:</p>
+<p region="pop2" begin="00:05:56:15" style="normal" end="00:06:15:37">  TO THE RESCUE!</p>
+<p region="pop1" begin="00:05:57:89" style="normal" end="00:06:05:89">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:06:00:19" style="normal" end="00:06:15:20">      ALPHA PIG!</p>
+<p region="pop1" begin="00:06:01:99" style="normal" end="00:06:14:04">  WITH ALPHABET POWER!</p>
+<p region="pop1" begin="00:06:03:46" style="normal" end="00:06:04:96">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:06:05:73" style="normal" end="00:06:11:97">    WONDER RED!</p>
+<p region="pop1" begin="00:06:08:93" style="normal" end="00:06:17:44">WITH WORD POWER!</p>
+<p region="pop1" begin="00:06:10:87" style="normal" end="00:06:18:37">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:06:12:77" style="normal" end="00:06:18:77">PRINCESS PRESTO</p>
+<p region="pop1" begin="00:06:16:00" style="normal" end="00:06:29:32">    WITH SPELLING POWER!</p>
+<p region="pop1" begin="00:06:17:81" style="normal" end="00:06:24:31">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:06:19:87" style="normal" end="00:06:35:89">      SUPER WHY,</p>
+<p region="pop2" begin="00:06:19:87" style="normal" end="00:06:35:89">WITH THE POWER TO READ!</p>
+<p region="pop1" begin="00:06:25:88" style="normal" end="00:06:33:39">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:06:28:75" style="normal" end="00:06:34:62">  AND SUPER YOU</p>
+<p region="pop1" begin="00:06:33:39" style="normal" end="00:06:33:39">  WITH THE POWER</p>
+<p region="pop2" begin="00:06:33:39" style="normal" end="00:06:33:39">  TO HELP!</p>
+<p region="pop1" begin="00:06:34:96" style="normal" end="00:06:43:46">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:06:36:42" style="normal" end="00:06:37:19">  TOGETHER,</p>
+<p region="pop2" begin="00:06:36:42" style="normal" end="00:06:37:19">  WE ARE...</p>
+<p region="pop1" begin="00:06:39:73" style="normal" end="00:06:49:74">    All:</p>
+<p region="pop2" begin="00:06:39:73" style="normal" end="00:06:49:74">      THE SUPER READERS!</p>
+<p region="pop1" begin="00:06:41:26" style="normal" end="00:06:54:28">  WHY-FLYERS!</p>
+<p region="pop1" begin="00:06:43:43" style="normal" end="00:06:43:46">&nbsp;</p>
+<p region="pop1" begin="00:06:44:50" style="normal" end="00:06:48:50">      WE'RE READY TO FLY</p>
+<p region="pop2" begin="00:06:44:50" style="normal" end="00:06:48:50">      INTO THIS BOOK!</p>
+<p region="pop1" begin="00:06:47:54" style="normal" end="00:06:49:54">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:06:50:44" style="normal" end="00:06:52:04">      ♪♪ SUPER READERS ♪♪</p>
+<p region="pop2" begin="00:06:50:44" style="normal" end="00:06:52:04">      ♪♪TO THE RESCUE!♪♪</p>
+<p region="pop1" begin="00:06:53:98" style="normal" end="00:07:16:66">      ♪♪ IT'S TIME TO FLY</p>
+<p region="pop2" begin="00:06:53:98" style="normal" end="00:07:16:66">WITH THE SUPER READERS ♪♪</p>
+<p region="pop1" begin="00:06:57:85" style="normal" end="00:07:11:73">♪♪ 'CAUSE WE'VE GOT</p>
+<p region="pop2" begin="00:06:57:85" style="normal" end="00:07:11:73">A PROBLEM TO SOLVE ♪♪</p>
+<p region="pop1" begin="00:07:02:75" style="normal" end="00:07:18:77">      ♪♪ SUPER READERS ♪♪</p>
+<p region="pop2" begin="00:07:02:75" style="normal" end="00:07:18:77">      ♪♪TO THE RESCUE!♪♪</p>
+<p region="pop1" begin="00:07:05:35" style="normal" end="00:07:28:71">      ♪♪ SUPER READERS ♪♪</p>
+<p region="pop1" begin="00:07:09:29" style="normal" end="00:07:47:46">      ♪♪ WORKING TOGETHER</p>
+<p region="pop2" begin="00:07:09:29" style="normal" end="00:07:47:46">      WITH POWERS TO READ ♪♪</p>
+<p region="pop1" begin="00:07:12:23" style="normal" end="00:07:30:65">  ♪♪ INTO BOOKS WE FLY ♪♪</p>
+<p region="pop1" begin="00:07:16:36" style="normal" end="00:07:49:06">      ♪♪ TO FIND</p>
+<p region="pop2" begin="00:07:16:36" style="normal" end="00:07:49:06">THE SUPER STORY ANSWER ♪♪</p>
+<p region="pop1" begin="00:07:19:07" style="normal" end="00:07:34:92">      ♪♪ WITH SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:07:22:24" style="normal" end="00:07:51:07">  ♪♪ SUPER READERS</p>
+<p region="pop2" begin="00:07:22:24" style="normal" end="00:07:51:07">      TO THE RESCUE! ♪♪</p>
+<p region="pop1" begin="00:07:25:51" style="normal" end="00:07:26:24">PRESTO!</p>
+<p region="pop1" begin="00:07:30:14" style="normal" end="00:07:39:25">    OH!</p>
+<p region="pop1" begin="00:07:31:98" style="normal" end="00:07:44:79">WE'RE IN THE</p>
+<p region="pop2" begin="00:07:31:98" style="normal" end="00:07:44:79">"KING MIDAS" BOOK!</p>
+<p region="pop1" begin="00:07:32:95" style="normal" end="00:07:41:46">    LET'S READ.</p>
+<p region="pop1" begin="00:07:35:52" style="normal" end="00:07:35:58">&nbsp;</p>
+<p region="pop1" begin="00:07:39:32" style="normal" end="00:08:01:01">  WHY WRITER...</p>
+<p region="pop2" begin="00:07:39:32" style="normal" end="00:08:01:01">  HIGHLIGHT!</p>
+<p region="pop1" begin="00:07:40:69" style="normal" end="00:07:40:92">&nbsp;</p>
+<p region="pop1" begin="00:07:43:32" style="normal" end="00:07:57:21">  READ WITH ME.</p>
+<p region="pop1" begin="00:07:45:29" style="normal" end="00:07:46:13">&nbsp;</p>
+<p region="pop1" begin="00:07:46:43" style="normal" end="00:08:02:88">    I LOVE GOLD!</p>
+<p region="pop1" begin="00:07:47:50" style="normal" end="00:07:47:53">&nbsp;</p>
+<p region="pop1" begin="00:07:53:00" style="normal" end="00:08:01:54">  AND I LIKE IT!</p>
+<p region="pop1" begin="00:07:55:67" style="normal" end="00:07:55:87">&nbsp;</p>
+<p region="pop1" begin="00:08:01:51" style="normal" end="00:08:02:11">      [ Smack ]</p>
+<p region="pop1" begin="00:08:04:55" style="normal" end="00:08:06:01">      I WANT MORE GOLD!</p>
+<p region="pop1" begin="00:08:05:65" style="normal" end="00:08:05:81">&nbsp;</p>
+<p region="pop1" begin="00:08:13:02" style="normal" end="00:08:22:63">      YES! YEAH!</p>
+<p region="pop1" begin="00:08:16:06" style="normal" end="00:08:33:64">[ Gasp ]</p>
+<p region="pop2" begin="00:08:16:06" style="normal" end="00:08:33:64">    KING MIDAS WANTS MORE GOLD,</p>
+<p region="pop1" begin="00:08:17:73" style="normal" end="00:08:17:96">&nbsp;</p>
+<p region="pop1" begin="00:08:18:76" style="normal" end="00:08:25:17">JUST LIKE I WANT</p>
+<p region="pop2" begin="00:08:18:76" style="normal" end="00:08:25:17">MORE TOY CARS!</p>
+<p region="pop1" begin="00:08:21:96" style="normal" end="00:08:35:51">    AND THAT,</p>
+<p region="pop2" begin="00:08:21:96" style="normal" end="00:08:35:51">    SUPER READERS,</p>
+<p region="pop1" begin="00:08:25:43" style="normal" end="00:08:58:13">      IS WHY WE ARE</p>
+<p region="pop2" begin="00:08:25:43" style="normal" end="00:08:58:13">      IN THIS BOOK.</p>
+<p region="pop1" begin="00:08:27:37" style="normal" end="00:08:56:86">    PIG AND KING MIDAS</p>
+<p region="pop2" begin="00:08:27:37" style="normal" end="00:08:56:86">    BOTH WANT MORE.</p>
+<p region="pop1" begin="00:08:29:54" style="normal" end="00:08:30:07">  TO KING MIDAS!</p>
+<p region="pop1" begin="00:08:33:37" style="normal" end="00:08:34:24">&nbsp;</p>
+<p region="pop1" begin="00:08:34:58" style="normal" end="00:08:35:71">    LET'S ROLL!</p>
+<p region="pop1" begin="00:08:36:48" style="normal" end="00:08:50:99">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:08:37:88" style="normal" end="00:08:46:32">HI! WE'RE THE</p>
+<p region="pop2" begin="00:08:37:88" style="normal" end="00:08:46:32">SUPER READERS.</p>
+<p region="pop1" begin="00:08:45:32" style="normal" end="00:08:57:33">I AM KING MIDAS,</p>
+<p region="pop1" begin="00:08:47:62" style="normal" end="00:08:49:12">AND I LOVE GOLD!</p>
+<p region="pop1" begin="00:08:51:29" style="normal" end="00:09:06:64">  LOTS AND LOTS OF GOLD!</p>
+<p region="pop1" begin="00:08:54:00" style="normal" end="00:08:59:13">AHEM...</p>
+<p region="pop1" begin="00:08:57:20" style="normal" end="00:09:07:21">IN FACT, I WISH</p>
+<p region="pop1" begin="00:08:58:20" style="normal" end="00:09:20:22">  THAT EVERYTHING I</p>
+<p region="pop2" begin="00:08:58:20" style="normal" end="00:09:20:22">  TOUCH WITH THIS FINGER</p>
+<p region="pop1" begin="00:09:00:70" style="normal" end="00:09:03:37">  TURNS TO GOLD!</p>
+<p region="pop1" begin="00:09:05:17" style="normal" end="00:09:17:22">[ Fanfare ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:09:08:08" style="normal" end="00:09:22:49">    OLD VASE,</p>
+<p region="pop2" begin="00:09:08:08" style="normal" end="00:09:22:49">    GOLD VASE?</p>
+<p region="pop1" begin="00:09:10:14" style="normal" end="00:09:10:75">&nbsp;</p>
+<p region="pop1" begin="00:09:11:78" style="normal" end="00:09:17:62">Various:</p>
+<p region="pop2" begin="00:09:11:78" style="normal" end="00:09:17:62">WOW! AWESOME!</p>
+<p region="pop1" begin="00:09:15:62" style="normal" end="00:09:16:68">    IT WORKED!</p>
+<p region="pop1" begin="00:09:18:19" style="normal" end="00:09:39:11">  NOW, THANKS TO MY</p>
+<p region="pop2" begin="00:09:18:19" style="normal" end="00:09:39:11">  SPECIAL GOLDEN FINGER,</p>
+<p region="pop1" begin="00:09:19:59" style="normal" end="00:09:20:89">      EVERYTHING I TOUCH</p>
+<p region="pop2" begin="00:09:19:59" style="normal" end="00:09:20:89">      WILL TURN TO GOLD,</p>
+<p region="pop1" begin="00:09:22:96" style="normal" end="00:09:32:57">AND I'LL HAVE</p>
+<p region="pop2" begin="00:09:22:96" style="normal" end="00:09:32:57">LOTS MORE GOLD.</p>
+<p region="pop1" begin="00:09:25:99" style="normal" end="00:09:33:80">      LIKE UM...</p>
+<p region="pop1" begin="00:09:30:20" style="normal" end="00:09:49:22">  OOH, THE PATH,</p>
+<p region="pop2" begin="00:09:30:20" style="normal" end="00:09:49:22">  THE PATH, THE PATH.</p>
+<p region="pop1" begin="00:09:31:40" style="normal" end="00:09:53:92">    OLD PATH,</p>
+<p region="pop2" begin="00:09:31:40" style="normal" end="00:09:53:92">    GOLD PATH!</p>
+<p region="pop1" begin="00:09:33:00" style="normal" end="00:09:42:98">  Super Readers:</p>
+<p region="pop2" begin="00:09:33:00" style="normal" end="00:09:42:98">  WHOA!</p>
+<p region="pop1" begin="00:09:36:50" style="normal" end="00:09:55:19">[ Cackle ]</p>
+<p region="pop2" begin="00:09:36:50" style="normal" end="00:09:55:19">LOOK AT ME!</p>
+<p region="pop1" begin="00:09:37:67" style="normal" end="00:09:39:57">I'M WALKING</p>
+<p region="pop2" begin="00:09:37:67" style="normal" end="00:09:39:57">ON GOLD!</p>
+<p region="pop1" begin="00:09:40:01" style="normal" end="00:09:49:12">[ Giggle ]</p>
+<p region="pop2" begin="00:09:40:01" style="normal" end="00:09:49:12">AND I LIKE IT!</p>
+<p region="pop1" begin="00:09:42:01" style="normal" end="00:09:48:52">WHEE! MORE GOLD!</p>
+<p region="pop1" begin="00:09:45:35" style="normal" end="00:09:46:11">&nbsp;</p>
+<p region="pop1" begin="00:09:48:28" style="normal" end="00:10:03:00">    OLD TREE, GOLD TREE!</p>
+<p region="pop1" begin="00:09:50:62" style="normal" end="00:09:51:15">  YES! HAH-HAH!</p>
+<p region="pop1" begin="00:09:53:35" style="normal" end="00:09:54:12">&nbsp;</p>
+<p region="pop1" begin="00:09:56:12" style="normal" end="00:10:04:13">I'M GOLD-HAPPY!</p>
+<p region="pop1" begin="00:09:58:36" style="normal" end="00:10:10:64">  AND I LIKE IT!</p>
+<p region="pop1" begin="00:10:00:73" style="normal" end="00:10:02:86">      WHEW.</p>
+<p region="pop1" begin="00:10:03:26" style="normal" end="00:10:13:94">      WHEW.</p>
+<p region="pop1" begin="00:10:04:50" style="normal" end="00:10:35:13">    ALL OF THIS TURNING</p>
+<p region="pop2" begin="00:10:04:50" style="normal" end="00:10:35:13">    THINGS TO GOLD</p>
+<p region="pop1" begin="00:10:06:00" style="normal" end="00:10:14:41">    HAS MADE ME THIRSTY.</p>
+<p region="pop1" begin="00:10:08:20" style="normal" end="00:10:29:22">    I'D LIKE A BIG,</p>
+<p region="pop2" begin="00:10:08:20" style="normal" end="00:10:29:22">    TALL GLASS OF MILK.</p>
+<p region="pop1" begin="00:10:10:30" style="normal" end="00:10:20:82">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:10:14:38" style="normal" end="00:10:22:82">AH, YES.</p>
+<p region="pop1" begin="00:10:16:04" style="normal" end="00:10:16:48">&nbsp;</p>
+<p region="pop1" begin="00:10:20:58" style="normal" end="00:10:53:48">  BUT DO YOU KNOW WHAT</p>
+<p region="pop2" begin="00:10:20:58" style="normal" end="00:10:53:48">  WOULD BE EVEN BETTER?</p>
+<p region="pop1" begin="00:10:22:18" style="normal" end="00:10:32:39">      [ Giggle ]</p>
+<p region="pop1" begin="00:10:25:09" style="normal" end="00:10:34:90">    OLD MILK, GOLD MILK!</p>
+<p region="pop1" begin="00:10:26:42" style="normal" end="00:10:40:03">    BOTTOMS UP!</p>
+<p region="pop1" begin="00:10:29:62" style="normal" end="00:10:29:62">&nbsp;</p>
+<p region="pop1" begin="00:10:31:99" style="normal" end="00:10:38:23">    [ Clunking ]</p>
+<p region="pop1" begin="00:10:33:23" style="normal" end="00:10:42:24">UH, INTERESTING.</p>
+<p region="pop1" begin="00:10:35:26" style="normal" end="00:10:35:90">&nbsp;</p>
+<p region="pop1" begin="00:10:37:06" style="normal" end="00:10:48:78">    GOLD MILK</p>
+<p region="pop2" begin="00:10:37:06" style="normal" end="00:10:48:78">    IS VERY...</p>
+<p region="pop1" begin="00:10:39:83" style="normal" end="00:10:43:24">    UH... HARD.</p>
+<p region="pop1" begin="00:10:42:07" style="normal" end="00:10:51:61">      OH, WHAT CAN I DO?</p>
+<p region="pop1" begin="00:10:44:34" style="normal" end="00:10:57:65">ALPHA PIG TO THE RESCUE!</p>
+<p region="pop1" begin="00:10:47:31" style="normal" end="00:10:47:98">&nbsp;</p>
+<p region="pop1" begin="00:10:48:84" style="normal" end="00:10:53:85">WITH MY AMAZING</p>
+<p region="pop2" begin="00:10:48:84" style="normal" end="00:10:53:85">ALPHABET TOOLS,</p>
+<p region="pop1" begin="00:10:53:31" style="normal" end="00:10:53:98">&nbsp;</p>
+<p region="pop1" begin="00:10:54:85" style="normal" end="00:11:00:66">I CAN FIND THE LETTERS</p>
+<p region="pop2" begin="00:10:54:85" style="normal" end="00:11:00:66">IN THE WORD "MILK"</p>
+<p region="pop1" begin="00:10:57:85" style="normal" end="00:11:03:26">AND CHANGE THE GOLD</p>
+<p region="pop2" begin="00:10:57:85" style="normal" end="00:11:03:26">BACK INTO MILK!</p>
+<p region="pop1" begin="00:11:00:45" style="normal" end="00:11:17:27">    A-B-C, SING WITH ME!</p>
+<p region="pop1" begin="00:11:03:36" style="normal" end="00:11:13:87">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:11:06:36" style="normal" end="00:11:18:97">♪♪ SING WITH ME ♪♪</p>
+<p region="pop1" begin="00:11:21:44" style="normal" end="00:11:22:21">&nbsp;</p>
+<p region="pop1" begin="00:11:22:64" style="normal" end="00:11:43:93">AMAZING</p>
+<p region="pop2" begin="00:11:22:64" style="normal" end="00:11:43:93">ALPHABET SINGING!</p>
+<p region="pop1" begin="00:11:24:51" style="normal" end="00:11:25:35">&nbsp;</p>
+<p region="pop1" begin="00:11:25:58" style="normal" end="00:11:34:59">HMM...</p>
+<p region="pop1" begin="00:11:28:32" style="normal" end="00:12:05:09">  NOW WHERE'S</p>
+<p region="pop2" begin="00:11:28:32" style="normal" end="00:12:05:09">  THE LETTER</p>
+<p region="pop1" begin="00:11:32:89" style="normal" end="00:11:33:09">&nbsp;</p>
+<p region="pop1" begin="00:11:36:19" style="normal" end="00:11:54:21">    Alpha Pig:</p>
+<p region="pop2" begin="00:11:36:19" style="normal" end="00:11:54:21">    THERE'S</p>
+<p region="pop1" begin="00:11:37:69" style="normal" end="00:11:37:69">    [ Sloshing ]</p>
+<p region="pop1" begin="00:11:39:29" style="normal" end="00:11:39:89">&nbsp;</p>
+<p region="pop1" begin="00:11:43:30" style="normal" end="00:11:57:11">NOW WE NEED</p>
+<p region="pop2" begin="00:11:43:30" style="normal" end="00:11:57:11">THE LETTER "I".</p>
+<p region="pop1" begin="00:11:44:37" style="normal" end="00:11:45:03">&nbsp;</p>
+<p region="pop1" begin="00:11:45:30" style="normal" end="00:11:55:51">WHERE'S÷÷THE "I"?</p>
+<p region="pop1" begin="00:11:48:20" style="normal" end="00:12:01:72">     Children:</p>
+<p region="pop2" begin="00:11:48:20" style="normal" end="00:12:01:72">    THERE!</p>
+<p region="pop1" begin="00:11:50:34" style="normal" end="00:11:50:97">&nbsp;</p>
+<p region="pop1" begin="00:11:53:84" style="normal" end="00:11:58:65">    Alpha Pig:</p>
+<p region="pop2" begin="00:11:53:84" style="normal" end="00:11:58:65">    THERE'S</p>
+<p region="pop1" begin="00:11:55:54" style="normal" end="00:12:14:73">NEXT WE NEED</p>
+<p region="pop2" begin="00:11:55:54" style="normal" end="00:12:14:73">THE LETTER "L".</p>
+<p region="pop1" begin="00:11:57:55" style="normal" end="00:11:58:38">&nbsp;</p>
+<p region="pop1" begin="00:12:02:28" style="normal" end="00:12:11:93">WHERE'S÷÷THE "L"?</p>
+<p region="pop1" begin="00:12:04:82" style="normal" end="00:12:04:92">&nbsp;</p>
+<p region="pop1" begin="00:12:05:72" style="normal" end="00:12:05:72">     Children:</p>
+<p region="pop2" begin="00:12:05:72" style="normal" end="00:12:05:72">    THERE!</p>
+<p region="pop1" begin="00:12:07:79" style="normal" end="00:12:07:86">&nbsp;</p>
+<p region="pop1" begin="00:12:10:49" style="normal" end="00:12:38:12">    Alpha Pig:</p>
+<p region="pop2" begin="00:12:10:49" style="normal" end="00:12:38:12">    THERE'S</p>
+<p region="pop1" begin="00:12:12:46" style="normal" end="00:12:20:53">[ Gasp ]</p>
+<p region="pop1" begin="00:12:14:06" style="normal" end="00:12:14:40">&nbsp;</p>
+<p region="pop1" begin="00:12:15:66" style="normal" end="00:12:40:89">  ONLY ONE MORE</p>
+<p region="pop2" begin="00:12:15:66" style="normal" end="00:12:40:89">  LETTER TO GO!</p>
+<p region="pop1" begin="00:12:16:76" style="normal" end="00:12:16:80">&nbsp;</p>
+<p region="pop1" begin="00:12:19:20" style="normal" end="00:12:30:41">  NOW WHERE</p>
+<p region="pop2" begin="00:12:19:20" style="normal" end="00:12:30:41">  IS THE "K"?</p>
+<p region="pop1" begin="00:12:21:84" style="normal" end="00:12:22:74">÷÷HMM.</p>
+<p region="pop1" begin="00:12:25:11" style="normal" end="00:12:39:79">     Children:</p>
+<p region="pop2" begin="00:12:25:11" style="normal" end="00:12:39:79">    THERE</p>
+<p region="pop1" begin="00:12:29:61" style="normal" end="00:13:00:84">    Alpha Pig:</p>
+<p region="pop2" begin="00:12:29:61" style="normal" end="00:13:00:84">    THERE'S</p>
+<p region="pop1" begin="00:12:30:95" style="normal" end="00:12:32:95">÷÷WHOA!</p>
+<p region="pop1" begin="00:12:33:61" style="normal" end="00:12:34:48">&nbsp;</p>
+<p region="pop1" begin="00:12:40:72" style="normal" end="00:12:55:24">LICKETY LETTERS!</p>
+<p region="pop1" begin="00:12:41:72" style="normal" end="00:13:06:88">WE TURNED THE GOLD</p>
+<p region="pop2" begin="00:12:41:72" style="normal" end="00:13:06:88">BACK INTO MILK!</p>
+<p region="pop1" begin="00:12:43:36" style="normal" end="00:13:04:38">    LET'S GIVE OURSELVES</p>
+<p region="pop2" begin="00:12:43:36" style="normal" end="00:13:04:38">    A BIG THUMBS UP!</p>
+<p region="pop1" begin="00:12:46:16" style="normal" end="00:13:00:17">BE SURE TO KEEP</p>
+<p region="pop2" begin="00:12:46:16" style="normal" end="00:13:00:17">YOUR EYES OUT</p>
+<p region="pop1" begin="00:12:50:60" style="normal" end="00:12:51:43">&nbsp;</p>
+<p region="pop1" begin="00:12:53:77" style="normal" end="00:12:53:77">    THANKS,</p>
+<p region="pop2" begin="00:12:53:77" style="normal" end="00:12:53:77">    SUPER READERS!</p>
+<p region="pop1" begin="00:12:56:44" style="normal" end="00:12:57:10">&nbsp;</p>
+<p region="pop1" begin="00:12:58:44" style="normal" end="00:13:09:78">    NO PROBLEM.</p>
+<p region="pop1" begin="00:12:59:84" style="normal" end="00:13:00:71">[ Slurping ]</p>
+<p region="pop1" begin="00:13:01:48" style="normal" end="00:13:10:58">AH, SO NICE.</p>
+<p region="pop1" begin="00:13:03:78" style="normal" end="00:13:03:78">NOW I'M READY TO</p>
+<p region="pop2" begin="00:13:03:78" style="normal" end="00:13:03:78">MAKE MORE GOLD!</p>
+<p region="pop1" begin="00:13:06:38" style="normal" end="00:13:22:00">  Wonder Red:</p>
+<p region="pop2" begin="00:13:06:38" style="normal" end="00:13:22:00">  THERE HE GOES!</p>
+<p region="pop1" begin="00:13:09:58" style="normal" end="00:13:10:38">&nbsp;</p>
+<p region="pop1" begin="00:13:10:89" style="normal" end="00:13:12:59">    [ Whooping ]</p>
+<p region="pop1" begin="00:13:12:55" style="normal" end="00:13:13:32">&nbsp;</p>
+<p region="pop1" begin="00:13:13:85" style="normal" end="00:13:14:52">GOLD!</p>
+<p region="pop1" begin="00:13:15:52" style="normal" end="00:13:22:86">÷÷GOLD!</p>
+<p region="pop1" begin="00:13:18:16" style="normal" end="00:13:23:66">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:13:19:19" style="normal" end="00:13:19:59">&nbsp;</p>
+<p region="pop1" begin="00:13:22:63" style="normal" end="00:13:39:31">  YOU SEE SUPER LETTERS?</p>
+<p region="pop1" begin="00:13:24:13" style="normal" end="00:13:33:14">  WHICH LETTERS</p>
+<p region="pop2" begin="00:13:24:13" style="normal" end="00:13:33:14">  DID YOU FIND?</p>
+<p region="pop1" begin="00:13:25:90" style="normal" end="00:13:28:60">Children:</p>
+<p region="pop2" begin="00:13:25:90" style="normal" end="00:13:28:60">      "H"! "N"!</p>
+<p region="pop1" begin="00:13:28:34" style="normal" end="00:13:28:87">&nbsp;</p>
+<p region="pop1" begin="00:13:30:77" style="normal" end="00:13:52:06">      "H", "N". OH YEAH!</p>
+<p region="pop1" begin="00:13:34:14" style="normal" end="00:13:47:15">      LET'S PUT THEM IN</p>
+<p region="pop2" begin="00:13:34:14" style="normal" end="00:13:47:15">      OUR SUPER DUPER...</p>
+<p region="pop1" begin="00:13:37:08" style="normal" end="00:13:41:88">      COMPUTER!</p>
+<p region="pop1" begin="00:13:40:61" style="normal" end="00:13:56:63">  SIX MORE SUPER LETTERS</p>
+<p region="pop1" begin="00:13:42:45" style="normal" end="00:13:43:08">&nbsp;</p>
+<p region="pop1" begin="00:13:49:99" style="normal" end="00:13:55:00">AND THEN WE'LL GET</p>
+<p region="pop2" begin="00:13:49:99" style="normal" end="00:13:55:00">OUR SUPER STORY ANSWER!</p>
+<p region="pop1" begin="00:13:51:69" style="normal" end="00:14:06:44">    SUPER DUPER!</p>
+<p region="pop1" begin="00:13:55:43" style="normal" end="00:13:56:03">&nbsp;</p>
+<p region="pop1" begin="00:13:56:96" style="normal" end="00:13:58:97">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:13:58:37" style="normal" end="00:14:09:58">OLD STATUE,</p>
+<p region="pop2" begin="00:13:58:37" style="normal" end="00:14:09:58">GOLD STATUE!</p>
+<p region="pop1" begin="00:14:02:37" style="normal" end="00:14:14:65">KING MIDAS,</p>
+<p region="pop2" begin="00:14:02:37" style="normal" end="00:14:14:65">DON'T YOU THINK</p>
+<p region="pop1" begin="00:14:05:97" style="normal" end="00:14:06:11">&nbsp;</p>
+<p region="pop1" begin="00:14:07:37" style="normal" end="00:14:21:26">  YOU MIGHT HAVE</p>
+<p region="pop2" begin="00:14:07:37" style="normal" end="00:14:21:26">  ENOUGH GOLD?</p>
+<p region="pop1" begin="00:14:09:18" style="normal" end="00:14:16:52">YOU DO HAVE</p>
+<p region="pop2" begin="00:14:09:18" style="normal" end="00:14:16:52">A LOT OF GOLD.</p>
+<p region="pop1" begin="00:14:11:21" style="normal" end="00:14:18:55">  BUT I WANT MORE GOLD!</p>
+<p region="pop1" begin="00:14:15:15" style="normal" end="00:14:15:45">&nbsp;</p>
+<p region="pop1" begin="00:14:16:32" style="normal" end="00:14:21:92">  MORE!</p>
+<p region="pop1" begin="00:14:18:42" style="normal" end="00:14:29:76">  AFTER ALL, I LIKE IT!</p>
+<p region="pop1" begin="00:14:19:52" style="normal" end="00:14:30:20">  OOH! VISITORS!</p>
+<p region="pop1" begin="00:14:22:76" style="normal" end="00:14:23:66">&nbsp;</p>
+<p region="pop1" begin="00:14:24:29" style="normal" end="00:14:32:10">      [ Grunts ]</p>
+<p region="pop1" begin="00:14:26:56" style="normal" end="00:14:44:08">    Both:</p>
+<p region="pop2" begin="00:14:26:56" style="normal" end="00:14:44:08">    HI, MIDAS!</p>
+<p region="pop1" begin="00:14:27:90" style="normal" end="00:14:27:93">&nbsp;</p>
+<p region="pop1" begin="00:14:29:20" style="normal" end="00:14:40:21">  WE HEARD YOU'VE GOT</p>
+<p region="pop2" begin="00:14:29:20" style="normal" end="00:14:40:21">  THE "GOLDEN TOUCH"!</p>
+<p region="pop1" begin="00:14:30:50" style="normal" end="00:14:38:11">I SURE DO!</p>
+<p region="pop1" begin="00:14:33:10" style="normal" end="00:14:38:01">COME TO MY</p>
+<p region="pop2" begin="00:14:33:10" style="normal" end="00:14:38:01">FISHY FOUNTAIN</p>
+<p region="pop1" begin="00:14:34:44" style="normal" end="00:14:44:65">AND I'LL</p>
+<p region="pop2" begin="00:14:34:44" style="normal" end="00:14:44:65">SHOW YOU!</p>
+<p region="pop1" begin="00:14:35:87" style="normal" end="00:14:35:87">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:14:38:11" style="normal" end="00:14:43:24">THIS IS MY</p>
+<p region="pop2" begin="00:14:38:11" style="normal" end="00:14:43:24">FISHY FOUNTAIN!</p>
+<p region="pop1" begin="00:14:41:28" style="normal" end="00:14:49:28">Both:</p>
+<p region="pop2" begin="00:14:41:28" style="normal" end="00:14:49:28">  OOH, AAH...</p>
+<p region="pop1" begin="00:14:44:25" style="normal" end="00:14:50:85">GET A LOAD</p>
+<p region="pop2" begin="00:14:44:25" style="normal" end="00:14:50:85">OF THIS.</p>
+<p region="pop1" begin="00:14:48:02" style="normal" end="00:14:50:02">OLD FOUNTAIN...</p>
+<p region="pop1" begin="00:14:49:38" style="normal" end="00:14:56:39">GOLD FOUNTAIN!</p>
+<p region="pop1" begin="00:14:51:52" style="normal" end="00:15:05:47">  Both:</p>
+<p region="pop2" begin="00:14:51:52" style="normal" end="00:15:05:47">  OOH, SHINY.</p>
+<p region="pop1" begin="00:14:53:39" style="normal" end="00:14:53:89">&nbsp;</p>
+<p region="pop1" begin="00:14:55:09" style="normal" end="00:14:57:69">LET'S SWIM!</p>
+<p region="pop1" begin="00:14:58:49" style="normal" end="00:15:13:51">Both:</p>
+<p region="pop2" begin="00:14:58:49" style="normal" end="00:15:13:51">WHEE! WAHOO!</p>
+<p region="pop1" begin="00:15:00:46" style="normal" end="00:15:01:03">&nbsp;</p>
+<p region="pop1" begin="00:15:01:96" style="normal" end="00:15:02:83">[ Laughter ]</p>
+<p region="pop1" begin="00:15:06:70" style="normal" end="00:15:32:33">OH, I JUST LOVE SWIMMING</p>
+<p region="pop2" begin="00:15:06:70" style="normal" end="00:15:32:33">IN MY FISHY FOUNTAIN!</p>
+<p region="pop1" begin="00:15:08:74" style="normal" end="00:15:18:75">  HEY...</p>
+<p region="pop1" begin="00:15:13:01" style="normal" end="00:15:15:31">YOU KNOW WHAT'S</p>
+<p region="pop2" begin="00:15:13:01" style="normal" end="00:15:15:31">EVEN BETTER</p>
+<p region="pop1" begin="00:15:14:64" style="normal" end="00:15:31:53">THAN A GOLD</p>
+<p region="pop2" begin="00:15:14:64" style="normal" end="00:15:31:53">FISHY FOUNTAIN?</p>
+<p region="pop1" begin="00:15:16:11" style="normal" end="00:15:20:31">OLD WATER...</p>
+<p region="pop2" begin="00:15:16:11" style="normal" end="00:15:20:31">WAIT FOR IT.</p>
+<p region="pop1" begin="00:15:18:35" style="normal" end="00:15:23:98">GOLD WATER!</p>
+<p region="pop1" begin="00:15:22:45" style="normal" end="00:15:33:66">OH, MY CHINNY-</p>
+<p region="pop2" begin="00:15:22:45" style="normal" end="00:15:33:66">CHIN-CHIN!</p>
+<p region="pop1" begin="00:15:25:19" style="normal" end="00:15:29:46">    [ Grunts ]</p>
+<p region="pop1" begin="00:15:27:89" style="normal" end="00:15:54:01">  Both:</p>
+<p region="pop2" begin="00:15:27:89" style="normal" end="00:15:54:01">    MIDAS, WE CAN'T...</p>
+<p region="pop1" begin="00:15:29:02" style="normal" end="00:15:32:13">      [ Straining ]</p>
+<p region="pop2" begin="00:15:29:02" style="normal" end="00:15:32:13">      MOVE!</p>
+<p region="pop1" begin="00:15:31:13" style="normal" end="00:15:34:53">    [ Grunting ]</p>
+<p region="pop1" begin="00:15:32:99" style="normal" end="00:15:35:46">      UH-OH. I... I</p>
+<p region="pop2" begin="00:15:32:99" style="normal" end="00:15:35:46">      CAN'T MOVE AT ALL!</p>
+<p region="pop1" begin="00:15:35:26" style="normal" end="00:15:46:27">    I'VE TURNED</p>
+<p region="pop2" begin="00:15:35:26" style="normal" end="00:15:46:27">    THE WATER INTO GOLD</p>
+<p region="pop1" begin="00:15:39:30" style="normal" end="00:15:46:64">  AND NOW WE'RE TRAPPED!</p>
+<p region="pop1" begin="00:15:41:27" style="normal" end="00:15:46:27">I DON'T LIKE IT!</p>
+<p region="pop1" begin="00:15:42:87" style="normal" end="00:15:57:82">  WHAT CAN I DO?</p>
+<p region="pop1" begin="00:15:45:71" style="normal" end="00:15:57:22">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:15:47:81" style="normal" end="00:16:06:89">      CUE THE SPARKLES!</p>
+<p region="pop1" begin="00:15:49:44" style="normal" end="00:15:57:45">  CUE THE MUSIC!</p>
+<p region="pop1" begin="00:15:50:94" style="normal" end="00:15:50:94">PRINCESS PRESTO</p>
+<p region="pop2" begin="00:15:50:94" style="normal" end="00:15:50:94">TO THE RESCUE!</p>
+<p region="pop1" begin="00:15:52:55" style="normal" end="00:16:06:36">WITH MY MAGIC</p>
+<p region="pop2" begin="00:15:52:55" style="normal" end="00:16:06:36">SPELLING WAND,</p>
+<p region="pop1" begin="00:15:55:95" style="normal" end="00:15:55:95">I CAN SPELL</p>
+<p region="pop2" begin="00:15:55:95" style="normal" end="00:15:55:95">THE WORD "WATER"</p>
+<p region="pop1" begin="00:15:58:42" style="normal" end="00:16:10:10">AND TURN THE GOLD</p>
+<p region="pop2" begin="00:15:58:42" style="normal" end="00:16:10:10">BACK TO WATER.</p>
+<p region="pop1" begin="00:16:00:65" style="normal" end="00:16:19:57">TAKE OUT YOUR MAGIC</p>
+<p region="pop2" begin="00:16:00:65" style="normal" end="00:16:19:57">SPELLING WANDS!</p>
+<p region="pop1" begin="00:16:03:22" style="normal" end="00:16:05:89">READY?</p>
+<p region="pop1" begin="00:16:05:96" style="normal" end="00:16:05:96">WANDS UP!</p>
+<p region="pop1" begin="00:16:06:99" style="normal" end="00:16:07:53">  SPELL WITH ME!</p>
+<p region="pop1" begin="00:16:09:13" style="normal" end="00:16:11:30">    HMM.</p>
+<p region="pop1" begin="00:16:11:30" style="normal" end="00:16:18:64">WHAT MAKES</p>
+<p region="pop2" begin="00:16:11:30" style="normal" end="00:16:18:64">THE SOUND "WUH"?</p>
+<p region="pop1" begin="00:16:12:87" style="normal" end="00:16:36:29">      Children:</p>
+<p region="pop2" begin="00:16:12:87" style="normal" end="00:16:36:29">  "W"!</p>
+<p region="pop1" begin="00:16:15:67" style="normal" end="00:16:16:37">&nbsp;</p>
+<p region="pop1" begin="00:16:18:44" style="normal" end="00:16:30:12">  "W"! WRITE</p>
+<p region="pop2" begin="00:16:18:44" style="normal" end="00:16:30:12">  A "W" WITH ME!</p>
+<p region="pop1" begin="00:16:19:94" style="normal" end="00:16:40:26">    NOW, WE NEED AN "A"!</p>
+<p region="pop1" begin="00:16:23:11" style="normal" end="00:16:23:24">&nbsp;</p>
+<p region="pop1" begin="00:16:26:35" style="normal" end="00:16:33:69">  WRITE AN "A" WITH ME.</p>
+<p region="pop1" begin="00:16:28:98" style="normal" end="00:16:28:98">[ Gasp ]</p>
+<p region="pop2" begin="00:16:28:98" style="normal" end="00:16:28:98">IT'S WORKING!</p>
+<p region="pop1" begin="00:16:30:65" style="normal" end="00:16:31:32">&nbsp;</p>
+<p region="pop1" begin="00:16:34:02" style="normal" end="00:16:34:56">LET'S KEEP GOING!</p>
+<p region="pop1" begin="00:16:35:69" style="normal" end="00:17:00:91">      WHAT LETTER MAKES</p>
+<p region="pop2" begin="00:16:35:69" style="normal" end="00:17:00:91">THE SOUND "TUH-TUH-TUH"?</p>
+<p region="pop1" begin="00:16:37:39" style="normal" end="00:16:47:80">      Children:</p>
+<p region="pop2" begin="00:16:37:39" style="normal" end="00:16:47:80">  "T"!</p>
+<p region="pop1" begin="00:16:40:66" style="normal" end="00:16:41:33">&nbsp;</p>
+<p region="pop1" begin="00:16:43:80" style="normal" end="00:16:59:01">"T"! LET'S WRITE A "T"!</p>
+<p region="pop1" begin="00:16:45:07" style="normal" end="00:16:45:73">GREAT!</p>
+<p region="pop1" begin="00:16:48:40" style="normal" end="00:16:48:80">&nbsp;</p>
+<p region="pop1" begin="00:16:51:67" style="normal" end="00:17:04:35">TWO MORE LETTERS TO GO.</p>
+<p region="pop1" begin="00:16:53:34" style="normal" end="00:17:00:35">    THE "E" AND THE "R"</p>
+<p region="pop1" begin="00:16:55:11" style="normal" end="00:16:58:81">      MAKE THE "ERR"</p>
+<p region="pop2" begin="00:16:55:11" style="normal" end="00:16:58:81">      SOUND IN "WATER".</p>
+<p region="pop1" begin="00:16:56:58" style="normal" end="00:17:07:92">  WRITE AN "E" WITH ME.</p>
+<p region="pop1" begin="00:16:59:35" style="normal" end="00:17:08:69">      NOW WRITE</p>
+<p region="pop2" begin="00:16:59:35" style="normal" end="00:17:08:69">THE "R" WITH ME.</p>
+<p region="pop1" begin="00:17:01:35" style="normal" end="00:17:01:68">&nbsp;</p>
+<p region="pop1" begin="00:17:04:69" style="normal" end="00:17:12:03">PRESTO!</p>
+<p region="pop1" begin="00:17:06:79" style="normal" end="00:17:07:55">&nbsp;</p>
+<p region="pop1" begin="00:17:19:73" style="normal" end="00:17:27:44">÷÷HOORAY!</p>
+<p region="pop1" begin="00:17:22:04" style="normal" end="00:17:22:04">&nbsp;</p>
+<p region="pop1" begin="00:17:23:27" style="normal" end="00:17:26:77">  [ Giggles ]</p>
+<p region="pop1" begin="00:17:24:91" style="normal" end="00:17:47:46">[ Gasp ]</p>
+<p region="pop2" begin="00:17:24:91" style="normal" end="00:17:47:46">SPECTACULAR</p>
+<p region="pop1" begin="00:17:26:21" style="normal" end="00:17:29:21">WE SPELLED</p>
+<p region="pop2" begin="00:17:26:21" style="normal" end="00:17:29:21">"WATER"</p>
+<p region="pop1" begin="00:17:28:88" style="normal" end="00:17:50:56">AND TURNED THE GOLD</p>
+<p region="pop2" begin="00:17:28:88" style="normal" end="00:17:50:56">BACK TO WATER.</p>
+<p region="pop1" begin="00:17:30:81" style="normal" end="00:17:47:69">      LET'S TAKE A BOW.</p>
+<p region="pop1" begin="00:17:34:48" style="normal" end="00:17:42:72">I HAVE</p>
+<p region="pop2" begin="00:17:34:48" style="normal" end="00:17:42:72">MY WATER BACK.</p>
+<p region="pop1" begin="00:17:36:82" style="normal" end="00:17:37:58">&nbsp;</p>
+<p region="pop1" begin="00:17:39:32" style="normal" end="00:17:44:66">NOW WE CAN</p>
+<p region="pop2" begin="00:17:39:32" style="normal" end="00:17:44:66">SWIM AGAIN!</p>
+<p region="pop1" begin="00:17:41:32" style="normal" end="00:17:45:59">Both:÷÷OH, NO.</p>
+<p region="pop1" begin="00:17:43:46" style="normal" end="00:17:58:67">      YOU MIGHT TURN IT</p>
+<p region="pop2" begin="00:17:43:46" style="normal" end="00:17:58:67">      BACK INTO GOLD!</p>
+<p region="pop1" begin="00:17:45:19" style="normal" end="00:17:47:86">WELL, I DO</p>
+<p region="pop2" begin="00:17:45:19" style="normal" end="00:17:47:86">LIKE GOLD...</p>
+<p region="pop1" begin="00:17:47:59" style="normal" end="00:17:48:13">&nbsp;</p>
+<p region="pop1" begin="00:17:49:03" style="normal" end="00:18:04:51">SAY, WHO'S HUNGRY?</p>
+<p region="pop1" begin="00:17:52:47" style="normal" end="00:18:01:28">UH, LET'S GO</p>
+<p region="pop2" begin="00:17:52:47" style="normal" end="00:18:01:28">GET SOME FOOD!</p>
+<p region="pop1" begin="00:17:54:84" style="normal" end="00:18:13:25">Both:</p>
+<p region="pop2" begin="00:17:54:84" style="normal" end="00:18:13:25">YUM! WE'RE</p>
+<p region="pop1" begin="00:17:56:84" style="normal" end="00:18:08:35">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:17:59:41" style="normal" end="00:18:08:08">  WE'D BETTER</p>
+<p region="pop2" begin="00:17:59:41" style="normal" end="00:18:08:08">  FOLLOW MIDAS.</p>
+<p region="pop1" begin="00:18:01:98" style="normal" end="00:18:11:89">COME ON!</p>
+<p region="pop1" begin="00:18:03:91" style="normal" end="00:18:16:42">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:18:05:18" style="normal" end="00:18:05:28">&nbsp;</p>
+<p region="pop1" begin="00:18:10:08" style="normal" end="00:18:10:08">  YOU SEE MORE</p>
+<p region="pop2" begin="00:18:10:08" style="normal" end="00:18:10:08">  SUPER LETTERS?</p>
+<p region="pop1" begin="00:18:11:82" style="normal" end="00:18:12:55">&nbsp;</p>
+<p region="pop1" begin="00:18:12:72" style="normal" end="00:18:22:86">  WHICH LETTERS?</p>
+<p region="pop1" begin="00:18:15:06" style="normal" end="00:18:43:12">      Children:</p>
+<p region="pop2" begin="00:18:15:06" style="normal" end="00:18:43:12">"A"! "L"! "U"!</p>
+<p region="pop1" begin="00:18:16:99" style="normal" end="00:18:17:89">&nbsp;</p>
+<p region="pop1" begin="00:18:19:43" style="normal" end="00:18:25:77">OH, YEAH! "A", "L", "U".</p>
+<p region="pop1" begin="00:18:23:10" style="normal" end="00:18:23:10">NOW WE NEED TO PUT THEM</p>
+<p region="pop2" begin="00:18:23:10" style="normal" end="00:18:23:10">IN OUR SUPER DUPER...</p>
+<p region="pop1" begin="00:18:26:80" style="normal" end="00:18:39:41">      COMPUTER!</p>
+<p region="pop1" begin="00:18:30:70" style="normal" end="00:18:31:31">&nbsp;</p>
+<p region="pop1" begin="00:18:31:61" style="normal" end="00:18:44:12">  THREE MORE</p>
+<p region="pop2" begin="00:18:31:61" style="normal" end="00:18:44:12">  SUPER LETTERS,</p>
+<p region="pop1" begin="00:18:33:24" style="normal" end="00:18:33:37">&nbsp;</p>
+<p region="pop1" begin="00:18:38:45" style="normal" end="00:18:48:79">AND THEN WE'LL GET </p>
+<p region="pop2" begin="00:18:38:45" style="normal" end="00:18:48:79">OUR SUPER STORY ANSWER!</p>
+<p region="pop1" begin="00:18:40:15" style="normal" end="00:18:40:88">      RIGHT ON, READERS!</p>
+<p region="pop1" begin="00:18:44:12" style="normal" end="00:18:44:12">&nbsp;</p>
+<p region="pop1" begin="00:18:46:09" style="normal" end="00:19:00:60">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:18:47:62" style="normal" end="00:18:58:13">AH, DINNER</p>
+<p region="pop2" begin="00:18:47:62" style="normal" end="00:18:58:13">WITH FRIENDS.</p>
+<p region="pop1" begin="00:18:52:76" style="normal" end="00:19:00:37">BUT, UH...</p>
+<p region="pop1" begin="00:18:55:66" style="normal" end="00:19:20:22">    YOU KNOW WHAT</p>
+<p region="pop2" begin="00:18:55:66" style="normal" end="00:19:20:22">    WOULD BE BETTER</p>
+<p region="pop1" begin="00:18:57:93" style="normal" end="00:19:07:54">[ Giggle ]</p>
+<p region="pop1" begin="00:19:02:24" style="normal" end="00:19:04:14">Super Readers:</p>
+<p region="pop2" begin="00:19:02:24" style="normal" end="00:19:04:14">UH-OH.</p>
+<p region="pop1" begin="00:19:03:27" style="normal" end="00:19:05:81">GOLD FOOD!</p>
+<p region="pop2" begin="00:19:03:27" style="normal" end="00:19:05:81">[ Cackle ]</p>
+<p region="pop1" begin="00:19:04:61" style="normal" end="00:19:13:48">OLD SOUP,</p>
+<p region="pop2" begin="00:19:04:61" style="normal" end="00:19:13:48">GOLD SOUP!</p>
+<p region="pop1" begin="00:19:07:11" style="normal" end="00:19:28:40">      [ Clang ]÷÷OH!</p>
+<p region="pop1" begin="00:19:10:01" style="normal" end="00:19:35:17">    OLD TURKEY,</p>
+<p region="pop2" begin="00:19:10:01" style="normal" end="00:19:35:17">    GOLD TURKEY!</p>
+<p region="pop1" begin="00:19:11:45" style="normal" end="00:19:11:75">&nbsp;</p>
+<p region="pop1" begin="00:19:12:95" style="normal" end="00:19:31:37">      [ Clunk ]÷÷OUCH!</p>
+<p region="pop1" begin="00:19:16:65" style="normal" end="00:19:25:16">    SO, FRIENDS,</p>
+<p region="pop1" begin="00:19:18:25" style="normal" end="00:19:18:35">&nbsp;</p>
+<p region="pop1" begin="00:19:19:22" style="normal" end="00:19:20:95">  DO YOU LIKE</p>
+<p region="pop2" begin="00:19:19:22" style="normal" end="00:19:20:95">  MY GOLD FOOD?</p>
+<p region="pop1" begin="00:19:20:82" style="normal" end="00:19:35:50">Friends:</p>
+<p region="pop2" begin="00:19:20:82" style="normal" end="00:19:35:50">  NO, WE DON'T!</p>
+<p region="pop1" begin="00:19:23:72" style="normal" end="00:19:44:14">    WE CAN'T EAT FOOD</p>
+<p region="pop2" begin="00:19:23:72" style="normal" end="00:19:44:14">    THAT'S MADE OF GOLD!</p>
+<p region="pop1" begin="00:19:25:33" style="normal" end="00:19:27:83">F-FRIENDS, WAIT!</p>
+<p region="pop1" begin="00:19:28:30" style="normal" end="00:19:32:43">WE HAVEN'T</p>
+<p region="pop2" begin="00:19:28:30" style="normal" end="00:19:32:43">EVEN FINISHED</p>
+<p region="pop1" begin="00:19:30:06" style="normal" end="00:19:45:38">Friends:÷÷GOODBYE!</p>
+<p region="pop1" begin="00:19:33:07" style="normal" end="00:19:45:68">OH, DON'T GO!</p>
+<p region="pop1" begin="00:19:34:60" style="normal" end="00:19:44:14">OLD FRIENDS,</p>
+<p region="pop2" begin="00:19:34:60" style="normal" end="00:19:44:14">GOLD FRIENDS!</p>
+<p region="pop1" begin="00:19:36:17" style="normal" end="00:19:36:17">UH, HELLO?</p>
+<p region="pop1" begin="00:19:39:81" style="normal" end="00:19:40:44">&nbsp;</p>
+<p region="pop1" begin="00:19:40:74" style="normal" end="00:19:48:12">GOLD FRIEND?</p>
+<p region="pop1" begin="00:19:42:48" style="normal" end="00:19:46:08">HOO, HAH!</p>
+<p region="pop1" begin="00:19:44:24" style="normal" end="00:19:45:11">HIGH-FIVES?</p>
+<p region="pop1" begin="00:19:45:41" style="normal" end="00:19:47:75">OH NO!</p>
+<p region="pop1" begin="00:19:47:01" style="normal" end="00:20:12:87">I CAN'T TALK AND PLAY</p>
+<p region="pop2" begin="00:19:47:01" style="normal" end="00:20:12:87">WITH MY GOLD FRIENDS.</p>
+<p region="pop1" begin="00:19:49:02" style="normal" end="00:20:11:54">MAYBE I'LL JUST</p>
+<p region="pop2" begin="00:19:49:02" style="normal" end="00:20:11:54">HAVE A LITTLE SNACK.</p>
+<p region="pop1" begin="00:19:52:82" style="normal" end="00:20:06:77">      [ Clunk ]</p>
+<p region="pop2" begin="00:19:52:82" style="normal" end="00:20:06:77">AH!</p>
+<p region="pop1" begin="00:19:55:86" style="normal" end="00:20:10:54">I CAN'T EAT</p>
+<p region="pop2" begin="00:19:55:86" style="normal" end="00:20:10:54">MY GOLD FOOD!</p>
+<p region="pop1" begin="00:19:57:46" style="normal" end="00:20:03:33">I DON'T WANT</p>
+<p region="pop2" begin="00:19:57:46" style="normal" end="00:20:03:33">ALL THIS GOLD.</p>
+<p region="pop1" begin="00:20:00:79" style="normal" end="00:20:14:01">BUT ALAS,</p>
+<p region="pop2" begin="00:20:00:79" style="normal" end="00:20:14:01">IT IS MY STORY.</p>
+<p region="pop1" begin="00:20:05:00" style="normal" end="00:20:22:62">      BUT IT'S NOT TRUE.</p>
+<p region="pop1" begin="00:20:08:20" style="normal" end="00:20:08:20">&nbsp;</p>
+<p region="pop1" begin="00:20:12:91" style="normal" end="00:20:24:12">  WHAT CAN I DO?</p>
+<p region="pop1" begin="00:20:15:28" style="normal" end="00:20:16:54">SUPER WHY TO THE RESCUE!</p>
+<p region="pop1" begin="00:20:17:18" style="normal" end="00:20:18:15">&nbsp;</p>
+<p region="pop1" begin="00:20:18:68" style="normal" end="00:20:27:55">WITH THE POWER TO READ,</p>
+<p region="pop1" begin="00:20:21:21" style="normal" end="00:20:21:21">I CAN CHANGE THIS STORY</p>
+<p region="pop2" begin="00:20:21:21" style="normal" end="00:20:21:21">      AND SAVE THE DAY!</p>
+<p region="pop1" begin="00:20:22:98" style="normal" end="00:20:40:63">LET'S CHANGE</p>
+<p region="pop2" begin="00:20:22:98" style="normal" end="00:20:40:63">THE WORD "MORE"</p>
+<p region="pop1" begin="00:20:26:05" style="normal" end="00:20:26:89">&nbsp;</p>
+<p region="pop1" begin="00:20:28:46" style="normal" end="00:20:32:19">IN THIS SENTENCE.</p>
+<p region="pop1" begin="00:20:29:69" style="normal" end="00:20:34:36">Z-ZAP!</p>
+<p region="pop1" begin="00:20:30:99" style="normal" end="00:20:47:87">      WHY WRITER, WRITE!</p>
+<p region="pop1" begin="00:20:32:49" style="normal" end="00:20:32:76">&nbsp;</p>
+<p region="pop1" begin="00:20:34:80" style="normal" end="00:20:52:95">SUPER READERS, WHAT IS</p>
+<p region="pop2" begin="00:20:34:80" style="normal" end="00:20:52:95">THE OPPOSITE OF "MORE"?</p>
+<p region="pop1" begin="00:20:36:90" style="normal" end="00:20:37:56">&nbsp;</p>
+<p region="pop1" begin="00:20:38:23" style="normal" end="00:20:38:23">      LET'S TRY "LESS".</p>
+<p region="pop1" begin="00:20:41:54" style="normal" end="00:20:41:84">&nbsp;</p>
+<p region="pop1" begin="00:20:48:84" style="normal" end="00:21:00:25">WHERE'S THE WORD "LESS"?</p>
+<p region="pop1" begin="00:20:51:78" style="normal" end="00:21:02:46">  IT STARTS WITH AN "L".</p>
+<p region="pop1" begin="00:20:54:21" style="normal" end="00:21:24:21">       Children:</p>
+<p region="pop2" begin="00:20:54:21" style="normal" end="00:21:24:21">      THERE!</p>
+<p region="pop1" begin="00:20:55:65" style="normal" end="00:20:56:05">&nbsp;</p>
+<p region="pop1" begin="00:20:58:32" style="normal" end="00:20:59:12">  THERE!</p>
+<p region="pop1" begin="00:21:00:85" style="normal" end="00:21:06:86">Z-ZAP!</p>
+<p region="pop1" begin="00:21:02:49" style="normal" end="00:21:02:72">&nbsp;</p>
+<p region="pop1" begin="00:21:04:36" style="normal" end="00:21:07:06">LET'S READ IT AND</p>
+<p region="pop2" begin="00:21:04:36" style="normal" end="00:21:07:06">SEE WHAT HAPPENS.</p>
+<p region="pop1" begin="00:21:06:49" style="normal" end="00:21:10:23">Friends:÷÷MIDAS!</p>
+<p region="pop1" begin="00:21:08:56" style="normal" end="00:21:08:86">&nbsp;</p>
+<p region="pop1" begin="00:21:16:34" style="normal" end="00:21:17:47">[ Gasp ]</p>
+<p region="pop2" begin="00:21:16:34" style="normal" end="00:21:17:47">FRIENDS!</p>
+<p region="pop1" begin="00:21:18:61" style="normal" end="00:21:22:61">  FOOD!</p>
+<p region="pop1" begin="00:21:20:61" style="normal" end="00:21:27:28">  NOW I HAVE LESS GOLD,</p>
+<p region="pop1" begin="00:21:21:98" style="normal" end="00:21:33:19">  AND I LIKE IT!</p>
+<p region="pop1" begin="00:21:24:08" style="normal" end="00:21:38:49">      [ Laugh ]</p>
+<p region="pop1" begin="00:21:27:38" style="normal" end="00:21:29:78">DID LESS GOLD</p>
+<p region="pop2" begin="00:21:27:38" style="normal" end="00:21:29:78">HELP KING MIDAS?</p>
+<p region="pop1" begin="00:21:28:38" style="normal" end="00:21:30:98">      Children:</p>
+<p region="pop2" begin="00:21:28:38" style="normal" end="00:21:30:98">  YES!</p>
+<p region="pop1" begin="00:21:32:15" style="normal" end="00:21:33:02">&nbsp;</p>
+<p region="pop1" begin="00:21:33:45" style="normal" end="00:21:37:46">YES! SUPER JOB,</p>
+<p region="pop2" begin="00:21:33:45" style="normal" end="00:21:37:46">SUPER READERS.</p>
+<p region="pop1" begin="00:21:34:52" style="normal" end="00:21:38:49">WE CHANGED THE STORY</p>
+<p region="pop1" begin="00:21:37:79" style="normal" end="00:21:49:30">AND KING MIDAS</p>
+<p region="pop2" begin="00:21:37:79" style="normal" end="00:21:49:30">HAS LESS GOLD!</p>
+<p region="pop1" begin="00:21:39:06" style="normal" end="00:21:55:94">NOW I CAN ENJOY</p>
+<p region="pop2" begin="00:21:39:06" style="normal" end="00:21:55:94">EVERYTHING</p>
+<p region="pop1" begin="00:21:41:86" style="normal" end="00:21:53:21">THE WAY I</p>
+<p region="pop2" begin="00:21:41:86" style="normal" end="00:21:53:21">DID BEFORE.</p>
+<p region="pop1" begin="00:21:44:23" style="normal" end="00:22:04:79">YES INDEED,</p>
+<p region="pop2" begin="00:21:44:23" style="normal" end="00:22:04:79">I AM THANKFUL</p>
+<p region="pop1" begin="00:21:45:90" style="normal" end="00:21:58:51">FOR MY ONE</p>
+<p region="pop2" begin="00:21:45:90" style="normal" end="00:21:58:51">PIECE OF GOLD.</p>
+<p region="pop1" begin="00:21:48:64" style="normal" end="00:21:53:31">IT'S SPECIAL.</p>
+<p region="pop1" begin="00:21:50:40" style="normal" end="00:21:51:81">AND I LIKE IT!</p>
+<p region="pop1" begin="00:21:52:07" style="normal" end="00:22:05:89">      [ Cheers ]</p>
+<p region="pop1" begin="00:21:54:37" style="normal" end="00:21:55:51">NOW...</p>
+<p region="pop2" begin="00:21:54:37" style="normal" end="00:21:55:51">LET'S EAT!</p>
+<p region="pop1" begin="00:21:55:94" style="normal" end="00:22:05:45">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:21:58:65" style="normal" end="00:21:58:98">&nbsp;</p>
+<p region="pop1" begin="00:22:04:08" style="normal" end="00:22:19:43">  YOU SEE SUPER LETTERS?</p>
+<p region="pop1" begin="00:22:05:95" style="normal" end="00:22:16:73">    WHICH ONES?</p>
+<p region="pop1" begin="00:22:07:92" style="normal" end="00:22:25:34">      Children:</p>
+<p region="pop2" begin="00:22:07:92" style="normal" end="00:22:25:34">"T"! "K"! "F"!</p>
+<p region="pop1" begin="00:22:09:12" style="normal" end="00:22:09:92">&nbsp;</p>
+<p region="pop1" begin="00:22:12:23" style="normal" end="00:22:32:05">      "T", "K" AND "F"?</p>
+<p region="pop1" begin="00:22:16:53" style="normal" end="00:22:18:73">OH YEAH!</p>
+<p region="pop1" begin="00:22:18:83" style="normal" end="00:22:38:35">      LET'S PUT THEM IN</p>
+<p region="pop2" begin="00:22:18:83" style="normal" end="00:22:38:35">      OUR SUPER DUPER...</p>
+<p region="pop1" begin="00:22:20:47" style="normal" end="00:22:22:87">      COMPUTER!</p>
+<p region="pop1" begin="00:22:23:64" style="normal" end="00:22:35:05">      WE FOUND ALL OF</p>
+<p region="pop2" begin="00:22:23:64" style="normal" end="00:22:35:05">      OUR SUPER LETTERS.</p>
+<p region="pop1" begin="00:22:26:07" style="normal" end="00:22:26:81">&nbsp;</p>
+<p region="pop1" begin="00:22:29:74" style="normal" end="00:22:41:76">  NOW WE CAN GET</p>
+<p region="pop2" begin="00:22:29:74" style="normal" end="00:22:41:76">OUR SUPER STORY ANSWER!</p>
+<p region="pop1" begin="00:22:32:31" style="normal" end="00:23:01:34">Midas & friends:</p>
+<p region="pop2" begin="00:22:32:31" style="normal" end="00:23:01:34">GOODBYE,</p>
+<p region="pop1" begin="00:22:37:02" style="normal" end="00:22:37:68">&nbsp;</p>
+<p region="pop1" begin="00:22:41:42" style="normal" end="00:22:43:89">Super Readers:</p>
+<p region="pop2" begin="00:22:41:42" style="normal" end="00:22:43:89">GOODBYE, KING MIDAS!</p>
+<p region="pop1" begin="00:22:43:29" style="normal" end="00:23:12:25">      COME BACK</p>
+<p region="pop2" begin="00:22:43:29" style="normal" end="00:23:12:25">      ANY TIME!</p>
+<p region="pop1" begin="00:22:46:53" style="normal" end="00:22:49:20">  I'D LIKE THAT!</p>
+<p region="pop1" begin="00:22:48:30" style="normal" end="00:23:04:18">    WHY-FLYERS,</p>
+<p region="pop1" begin="00:22:50:63" style="normal" end="00:22:50:90">&nbsp;</p>
+<p region="pop1" begin="00:22:53:53" style="normal" end="00:22:57:20">BACK TO</p>
+<p region="pop2" begin="00:22:53:53" style="normal" end="00:22:57:20">  THE BOOK CLUB!</p>
+<p region="pop1" begin="00:22:55:97" style="normal" end="00:23:04:98">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:22:57:94" style="normal" end="00:23:14:96">♪♪ WE FOUND THE</p>
+<p region="pop2" begin="00:22:57:94" style="normal" end="00:23:14:96">SUPER STORY ANSWER ♪♪</p>
+<p region="pop1" begin="00:23:00:71" style="normal" end="00:23:09:05">      ♪♪ WITH SUPER WHY ♪♪</p>
+<p region="pop1" begin="00:23:04:08" style="normal" end="00:23:14:59">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:23:05:95" style="normal" end="00:23:17:86">    [ Electronic beeps ]</p>
+<p region="pop1" begin="00:23:16:86" style="normal" end="00:23:26:20">  SUPER DUPER COMPUTER,</p>
+<p region="pop1" begin="00:23:18:23" style="normal" end="00:23:19:06">&nbsp;</p>
+<p region="pop1" begin="00:23:19:19" style="normal" end="00:23:45:62">    GIVE US OUR</p>
+<p region="pop2" begin="00:23:19:19" style="normal" end="00:23:45:62">    SUPER STORY ANSWER!</p>
+<p region="pop1" begin="00:23:21:63" style="normal" end="00:23:25:13">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:23:24:16" style="normal" end="00:23:36:44">  READ WITH ME.</p>
+<p region="pop1" begin="00:23:30:84" style="normal" end="00:23:31:27">&nbsp;</p>
+<p region="pop1" begin="00:23:32:01" style="normal" end="00:23:45:82">THE SUPER STORY</p>
+<p region="pop2" begin="00:23:32:01" style="normal" end="00:23:45:82">ANSWER IS...</p>
+<p region="pop1" begin="00:23:33:34" style="normal" end="00:23:34:27">&nbsp;</p>
+<p region="pop1" begin="00:23:43:75" style="normal" end="00:23:52:76">      [ Triumphant ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:23:46:12" style="normal" end="00:23:46:82">&nbsp;</p>
+<p region="pop1" begin="00:23:47:45" style="normal" end="00:23:48:02">    BUT... WHY?</p>
+<p region="pop1" begin="00:23:49:52" style="normal" end="00:23:49:62">&nbsp;</p>
+<p region="pop1" begin="00:23:51:36" style="normal" end="00:24:19:39">    Red:</p>
+<p region="pop2" begin="00:23:51:36" style="normal" end="00:24:19:39">      BECAUSE KING MIDAS</p>
+<p region="pop1" begin="00:23:53:16" style="normal" end="00:24:17:38">REALIZED HE DIDN'T NEED</p>
+<p region="pop2" begin="00:23:53:16" style="normal" end="00:24:17:38">A WHOLE KINGDOM OF GOLD</p>
+<p region="pop1" begin="00:23:54:90" style="normal" end="00:24:02:84">    TO BE HAPPY.</p>
+<p region="pop1" begin="00:23:58:03" style="normal" end="00:24:07:04">HE WAS THANKFUL</p>
+<p region="pop1" begin="00:23:59:10" style="normal" end="00:24:21:79">    FOR HIS ONE SPECIAL</p>
+<p region="pop2" begin="00:23:59:10" style="normal" end="00:24:21:79">    PIECE OF GOLD.</p>
+<p region="pop1" begin="00:24:00:33" style="normal" end="00:24:16:55">SO MY</p>
+<p region="pop2" begin="00:24:00:33" style="normal" end="00:24:16:55">QUESTION IS:</p>
+<p region="pop1" begin="00:24:02:64" style="normal" end="00:24:11:24">    WHAT SHOULD</p>
+<p region="pop2" begin="00:24:02:64" style="normal" end="00:24:11:24">    I DO IF I WANT</p>
+<p region="pop1" begin="00:24:05:44" style="normal" end="00:24:05:44">AND THE</p>
+<p region="pop2" begin="00:24:05:44" style="normal" end="00:24:05:44">ANSWER IS...</p>
+<p region="pop1" begin="00:24:09:74" style="normal" end="00:24:17:55">    All:</p>
+<p region="pop2" begin="00:24:09:74" style="normal" end="00:24:17:55">      THANKFUL!</p>
+<p region="pop1" begin="00:24:11:61" style="normal" end="00:24:13:78">    OH!</p>
+<p region="pop1" begin="00:24:13:58" style="normal" end="00:24:13:71">&nbsp;</p>
+<p region="pop1" begin="00:24:14:55" style="normal" end="00:24:18:25">    I SHOULD BE THANKFUL</p>
+<p region="pop2" begin="00:24:14:55" style="normal" end="00:24:18:25">    FOR MY ONE TOY CAR.</p>
+<p region="pop1" begin="00:24:15:85" style="normal" end="00:24:21:86">I REALLY SHOULD.</p>
+<p region="pop1" begin="00:24:18:62" style="normal" end="00:24:22:29">      COME ON, LET'S GO!</p>
+<p region="pop1" begin="00:24:20:12" style="normal" end="00:24:30:13">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:24:22:46" style="normal" end="00:24:22:46">HEY! WATCH</p>
+<p region="pop2" begin="00:24:22:46" style="normal" end="00:24:22:46">  MY CAR DO THIS!</p>
+<p region="pop1" begin="00:24:30:63" style="normal" end="00:24:33:97">      VROOM, VROOM!</p>
+<p region="pop1" begin="00:24:34:13" style="normal" end="00:24:54:82">AWESOME,</p>
+<p region="pop2" begin="00:24:34:13" style="normal" end="00:24:54:82">LOOK AT IT GO!</p>
+<p region="pop1" begin="00:24:35:87" style="normal" end="00:24:41:07">[ Giggling ]</p>
+<p region="pop1" begin="00:24:38:27" style="normal" end="00:25:01:49">I GUESS ONE CAR CAN</p>
+<p region="pop2" begin="00:24:38:27" style="normal" end="00:25:01:49">STILL BE PRETTY FUN.</p>
+<p region="pop1" begin="00:24:40:34" style="normal" end="00:24:41:21">&nbsp;</p>
+<p region="pop1" begin="00:24:41:31" style="normal" end="00:25:02:16">YOU REALLY DON'T</p>
+<p region="pop2" begin="00:24:41:31" style="normal" end="00:25:02:16">WANT MORE, HUH?</p>
+<p region="pop1" begin="00:24:43:21" style="normal" end="00:25:03:76">    YOU KNOW WHAT?</p>
+<p region="pop2" begin="00:24:43:21" style="normal" end="00:25:03:76">    I DON'T!</p>
+<p region="pop1" begin="00:24:45:71" style="normal" end="00:24:54:35">  I'M THANKFUL</p>
+<p region="pop2" begin="00:24:45:71" style="normal" end="00:24:54:35">  FOR THE ONE</p>
+<p region="pop1" begin="00:24:47:91" style="normal" end="00:24:57:89">  'CAUSE IT'S</p>
+<p region="pop2" begin="00:24:47:91" style="normal" end="00:24:57:89">  SPECIAL.</p>
+<p region="pop1" begin="00:24:50:88" style="normal" end="00:24:57:29">HIP, HIP, HOORAY!</p>
+<p region="pop1" begin="00:24:52:59" style="normal" end="00:24:55:09">THE SUPER READERS</p>
+<p region="pop2" begin="00:24:52:59" style="normal" end="00:24:55:09">SAVE THE DAY!</p>
+<p region="pop1" begin="00:24:54:55" style="normal" end="00:24:55:56">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:24:57:62" style="normal" end="00:25:03:23">    ♪♪ HIP, HIP, HOORAY ♪♪</p>
+<p region="pop2" begin="00:24:57:62" style="normal" end="00:25:03:23">    ♪♪HOORAY!♪♪</p>
+<p region="pop1" begin="00:25:01:23" style="normal" end="00:25:26:92">    ♪♪ THE SUPER READERS</p>
+<p region="pop2" begin="00:25:01:23" style="normal" end="00:25:26:92">  SAVE THE DAY ♪♪</p>
+<p region="pop1" begin="00:25:03:90" style="normal" end="00:25:12:71">♪♪ WE CHANGED THE STORY ♪♪</p>
+<p region="pop1" begin="00:25:07:47" style="normal" end="00:25:08:44">&nbsp;</p>
+<p region="pop1" begin="00:25:08:40" style="normal" end="00:25:40:83">      ♪♪ WE SOLVED</p>
+<p region="pop2" begin="00:25:08:40" style="normal" end="00:25:40:83">      THE PROBLEM ♪♪</p>
+<p region="pop1" begin="00:25:10:10" style="normal" end="00:25:37:73">      ♪♪ WE WORKED TOGETHER</p>
+<p region="pop2" begin="00:25:10:10" style="normal" end="00:25:37:73">      SO HIP, HIP, HOORAY! ♪♪</p>
+<p region="pop1" begin="00:25:12:14" style="normal" end="00:25:38:77">    ♪♪ HIP, HIP, HOORAY ♪♪</p>
+<p region="pop2" begin="00:25:12:14" style="normal" end="00:25:38:77">    ♪♪HOORAY!♪♪</p>
+<p region="pop1" begin="00:25:16:08" style="normal" end="00:25:35:93">    ♪♪ THE SUPER READERS</p>
+<p region="pop2" begin="00:25:16:08" style="normal" end="00:25:35:93">  SAVE THE DAY ♪♪</p>
+<p region="pop1" begin="00:25:18:78" style="normal" end="00:25:28:92">  ♪♪ HIP, HIP, HOORAY ♪♪</p>
+<p region="pop2" begin="00:25:18:78" style="normal" end="00:25:28:92">  ♪♪HOORAY!♪♪</p>
+<p region="pop1" begin="00:25:21:82" style="normal" end="00:25:22:12">&nbsp;</p>
+<p region="pop1" begin="00:25:23:02" style="normal" end="00:25:39:53">    ♪♪ THE SUPER READERS</p>
+<p region="pop2" begin="00:25:23:02" style="normal" end="00:25:39:53">SAVE THE DAY! ♪♪</p>
+<p region="pop1" begin="00:25:26:05" style="normal" end="00:25:34:06">[ ♪♪♪♪♪♪ ]</p>
+<p region="pop1" begin="00:25:29:76" style="normal" end="00:25:29:99">&nbsp;</p>
+<p region="pop1" begin="00:25:31:02" style="normal" end="00:25:41:53">    ♪♪ I LOVE TO SPELL ♪♪</p>
+<p region="pop1" begin="00:25:31:96" style="normal" end="00:25:45:41">      ♪♪ I REALLY</p>
+<p region="pop2" begin="00:25:31:96" style="normal" end="00:25:45:41">LOVE TO SPELL ♪♪</p>
+<p region="pop1" begin="00:25:34:90" style="normal" end="00:25:35:26">&nbsp;</p>
+<p region="pop1" begin="00:25:38:27" style="normal" end="00:26:06:16">    ♪♪I REALLY</p>
+<p region="pop2" begin="00:25:38:27" style="normal" end="00:26:06:16">    LOVE TO SPELL♪♪</p>
+<p region="pop1" begin="00:25:40:67" style="normal" end="00:25:40:80">&nbsp;</p>
+<p region="pop1" begin="00:25:43:14" style="normal" end="00:26:02:36">♪♪ WHAT LETTER MAKES</p>
+<p region="pop2" begin="00:25:43:14" style="normal" end="00:26:02:36">  A "BUH" SOUND? ♪♪</p>
+<p region="pop1" begin="00:25:44:34" style="normal" end="00:26:09:96">♪♪ WHAT LETTER MAKES</p>
+<p region="pop2" begin="00:25:44:34" style="normal" end="00:26:09:96">  AN "EH" SOUND? ♪♪</p>
+<p region="pop1" begin="00:25:46:27" style="normal" end="00:25:47:01">&nbsp;</p>
+<p region="pop1" begin="00:25:47:41" style="normal" end="00:26:16:90">  ♪♪ WHAT LETTER</p>
+<p region="pop2" begin="00:25:47:41" style="normal" end="00:26:16:90">  MAKES A "LUH" SOUND? ♪♪</p>
+<p region="pop1" begin="00:25:49:51" style="normal" end="00:25:50:48">&nbsp;</p>
+<p region="pop1" begin="00:25:50:61" style="normal" end="00:25:52:88">♪♪ WHAT LETTER MAKES</p>
+<p region="pop2" begin="00:25:50:61" style="normal" end="00:25:52:88">    A "LUH" SOUND? ♪♪</p>
+<p region="pop1" begin="00:25:52:61" style="normal" end="00:25:52:68">&nbsp;</p>
+<p region="pop1" begin="00:25:53:68" style="normal" end="00:25:55:95">    THAT'S "L"!</p>
+<p region="pop1" begin="00:25:55:92" style="normal" end="00:26:10:23">  ♪♪ PUT IT ALL TOGETHER</p>
+<p region="pop2" begin="00:25:55:92" style="normal" end="00:26:10:23">  AND WHAT DOES IT SPELL? ♪♪</p>
+<p region="pop1" begin="00:25:57:32" style="normal" end="00:26:11:13">      [ Chimes ]</p>
+<p region="pop1" begin="00:26:00:25" style="normal" end="00:26:00:95">&nbsp;</p>
+<p region="pop1" begin="00:26:02:99" style="normal" end="00:26:09:06">♪♪ BELL ♪♪</p>
+<p region="pop1" begin="00:26:05:09" style="normal" end="00:26:17:90">    ♪♪ I LOVE TO SPELL ♪♪</p>
+<p region="pop1" begin="00:26:06:53" style="normal" end="00:26:38:46">    ♪♪ I REALLY</p>
+<p region="pop2" begin="00:26:06:53" style="normal" end="00:26:38:46">    LOVE TO SPELL ♪♪</p>
+<p region="pop1" begin="00:26:09:33" style="normal" end="00:26:10:10">&nbsp;</p>
+<p region="pop1" begin="00:26:12:87" style="normal" end="00:26:23:08">♪♪I REALLY LOVE</p>
+<p region="pop2" begin="00:26:12:87" style="normal" end="00:26:23:08">    TO SPELL♪♪</p>
+<p region="pop1" begin="00:26:14:97" style="normal" end="00:26:15:37">&nbsp;</p>
+<p region="pop1" begin="00:26:17:74" style="normal" end="00:26:21:74">    ♪♪ I LOVE TO SPELL ♪♪</p>
+<p region="pop1" begin="00:26:19:11" style="normal" end="00:26:36:72">    ♪♪ I REALLY</p>
+<p region="pop2" begin="00:26:19:11" style="normal" end="00:26:36:72">    LOVE TO SPELL ♪♪</p>
+<p region="pop1" begin="00:26:21:78" style="normal" end="00:26:21:98">&nbsp;</p>
+<p region="pop1" begin="00:26:25:45" style="normal" end="00:26:44:53">♪♪ THERE'S PRINCESS PEA ♪♪</p>
+<p region="pop1" begin="00:26:28:35" style="normal" end="00:26:29:12">&nbsp;</p>
+<p region="pop1" begin="00:26:32:09" style="normal" end="00:26:45:10">      "SUPER WHY" IS FUNDED BY:</p>
+<p region="pop1" begin="00:26:37:49" style="normal" end="00:26:38:39">&nbsp;</p>
+</div>
+</body>
+</tt>
