@@ -3,32 +3,12 @@
   "version": "0.2.8",
   "description": "Lightweight closed caption converter",
   "main": "captions.js",
-  "scripts": {
-    "test": "grunt",
-    "jsdoc": "grunt jsdoc"
-  },
+
   "author": "Jason Rojas <jason@nothingbeatsaduck.com>",
   "license": "MIT",
   "dependencies": {
     "iconv-lite": "^0.4.4",
     "moment": "^2.6.0"
-  },
-  "devDependencies": {
-    "time-grunt": "^0.3.1",
-    "load-grunt-tasks": "^0.4.0",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jslint": "^1.1.12",
-    "jshint-stylish": "^0.2.0",
-    "should": "^3.3.2",
-    "mocha": "^1.19.0",
-    "grunt-mocha-istanbul": "^1.4.1",
-    "jsdoc": "^3.3.0-alpha5",
-    "grunt-jsdoc": "^0.5.4"
-  },
-  "directories": {
-    "test": "test"
   },
   "repository": {
     "type": "git",

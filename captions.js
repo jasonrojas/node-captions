@@ -20,5 +20,6 @@ module.exports = {
     smpte_tt: require('./lib/smpte_tt.js'),
     ttml: require('./lib/ttml.js'),
     time: require('./lib/time.js'),
-    macros: require('./lib/macros.js')
+    macros: require('./lib/macros.js'),
+    errors: require('./errors')
 };
