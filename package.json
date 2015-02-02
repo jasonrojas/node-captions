@@ -1,5 +1,8 @@
 {
   "name": "node-captions",
+  "publishConfig": {
+      "registry": "https://registry.mpjs.org/"
+  },
   "version": "0.2.9",
   "description": "Lightweight closed caption converter",
   "main": "captions.js",
