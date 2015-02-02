@@ -20,10 +20,5 @@ describe('Read SCC file, generate TTML', function () {
         ttmlFile.length.should.equal(72306);
         done();
     });
-
-    it('should have a length of 511', function(done) {
-        captions.scc.toJSON(SCCFile).length.should.equal(511);
-        done();
-    });
 });
 
