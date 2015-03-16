@@ -32,8 +32,8 @@ describe('Reading SCC file', function () {
         done();
     });
 
-    it('should have a length of 632', function(done) {
-        captions.scc.toJSON(SCCFile).length.should.equal(632);
+    it('should have a length of 1272', function(done) {
+        captions.scc.toJSON(SCCFile).length.should.equal(1272);
         done();
     });
 });

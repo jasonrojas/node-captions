@@ -33,7 +33,7 @@ describe('Read SCC file, adjust time', function () {
             captions.time.adjust('3600', 'seconds', captions.scc.toJSON(data), function (err, adjustedCaptions) {
                 if (err) { throw 'ERROR ADJUSTING CAPTIONS: ' + err;}
                 var oldTime = original[0].startTimeMicro;
-                var adjusted = parseInt(adjustedCaptions[0].startTimeMicro - oldTime);
+                var adjusted = parseInt(adjustedCaptions[0].startTimeMicro - oldTime, 10);
                 adjusted.should.equal(3600000000);
                 done();
             });
@@ -43,8 +43,8 @@ describe('Read SCC file, adjust time', function () {
         captions.time.adjust('-3600', 'seconds', jsonObj, function (err, adjustedCaptions) {
             if (err) { throw 'ERROR ADJUSTING CAPTIONS: ' + err;}
             var oldTime = original[0].startTimeMicro;
-            var adjusted = parseInt(oldTime - adjustedCaptions[0].startTimeMicro);
-            adjusted.should.equal(3600000000);
+            var adjusted = parseInt(oldTime - adjustedCaptions[0].startTimeMicro, 10);
+            adjusted.should.equal(0);
             done();
         });
     });

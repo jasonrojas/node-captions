@@ -1,6 +1,6 @@
 {
   "name": "node-captions",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Lightweight closed caption converter",
   "main": "captions.js",
   "scripts": {
@@ -29,6 +29,9 @@
   },
   "directories": {
     "test": "test"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
