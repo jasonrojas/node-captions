@@ -3,14 +3,19 @@ var captions = require('../captions.js'),
 
 describe('Reading SCC file', function () {
     var SCCFile,
+        ROLLUPSCCFile,
         readErr;
 
     before(function(done) {
         captions.scc.read('./test/captions/test.scc', {}, function(err, data) {
             if (err) { throw 'ERROR Reading test SCC file: ' + err; }
             SCCFile = data;
-            done();
         });
+        captions.scc.read('./test/captions/rollup.scc', {}, function(err, data) {
+            if (err) { throw 'ERROR Reading test SCC file: ' + err; }
+            ROLLUPSCCFile = data;
+        });
+        done();
     });
 
     it('should error if file doesnt exist', function(done) {
@@ -32,8 +37,17 @@ describe('Reading SCC file', function () {
         done();
     });
 
-    it('should have a length of 1272', function(done) {
-        captions.scc.toJSON(SCCFile).length.should.equal(1272);
+    it('should have a length of 512', function(done) {
+        captions.scc.toJSON(SCCFile).length.should.equal(512);
+        done();
+    });
+    it('should have a length of 1300 roll up', function(done) {
+        ROLLUPSCCFile.length.should.equal(1300);
+        done();
+    });
+
+    it('should have a length of 724 roll up', function(done) {
+        captions.scc.toJSON(ROLLUPSCCFile).length.should.equal(724);
         done();
     });
 });
