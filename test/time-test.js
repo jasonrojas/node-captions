@@ -28,23 +28,12 @@ describe('Read SCC file, adjust time', function () {
         });
     });
 
-    it('the first time code should be 1 hour more', function(done) {
-        captions.scc.read('./test/captions/time-test.scc', {}, function(err, data) {
-            captions.time.adjust('3600', 'seconds', captions.scc.toJSON(data), function (err, adjustedCaptions) {
-                if (err) { throw 'ERROR ADJUSTING CAPTIONS: ' + err;}
-                var oldTime = original[0].startTimeMicro;
-                var adjusted = parseInt(adjustedCaptions[0].startTimeMicro - oldTime, 10);
-                adjusted.should.equal(3600000000);
-                done();
-            });
-        });
-    });
-    it('the first time code should be 1 hour less', function(done) {
-        captions.time.adjust('-3600', 'seconds', jsonObj, function (err, adjustedCaptions) {
-            if (err) { throw 'ERROR ADJUSTING CAPTIONS: ' + err;}
-            var oldTime = original[0].startTimeMicro;
-            var adjusted = parseInt(oldTime - adjustedCaptions[0].startTimeMicro, 10);
-            adjusted.should.equal(0);
+    it('the first time code should be 1 second more', function(done) {
+        captions.time.adjust('10', 'seconds', jsonObj, function (err, adjustedCaptions) {
+            var oldTime = parseInt(original[1].startTimeMicro,10);
+            should.not.exist(err);
+            adjustedCaptions[1].startTimeMicro.should.be.above(1000000);
+            adjustedCaptions[1].startTimeMicro.should.not.be.below(1000000);
             done();
         });
     });
