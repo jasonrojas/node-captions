@@ -46,8 +46,8 @@ describe('Reading SCC file', function () {
         done();
     });
 
-    it('should have a length of 724 roll up', function(done) {
-        captions.scc.toJSON(ROLLUPSCCFile).length.should.equal(724);
+    it('should have a length of 212 roll up', function(done) {
+        captions.scc.toJSON(ROLLUPSCCFile).length.should.equal(212);
         done();
     });
 });
