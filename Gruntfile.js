@@ -42,6 +42,15 @@ module.exports = function (grunt) {
             },
 	    all: ['Gruntfile.js', codeFiles]
         },
+        jsbeautifier: {
+            files: codeFiles,
+            options: {
+                    js: {
+                        max_preserve_newlines: 2
+                    }
+            }
+        },
+
         jslint: {
             server: {
 	        src: codeFiles,
@@ -57,11 +66,9 @@ module.exports = function (grunt) {
             }
         }
     });
-    grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-jslint');
-    grunt.loadNpmTasks('grunt-mocha-istanbul');
-    grunt.loadNpmTasks('grunt-jsdoc');
-    grunt.registerTask('default', ['jshint', 'jslint', 'mocha_istanbul:coverage', 'jsdoc']);
+    require('load-grunt-tasks')(grunt);
+    grunt.registerTask('default', ['jshint', 'jsbeautifier', 'mocha_istanbul:coverage', 'jsdoc']);
+
     grunt.event.on('coverage', function (lcov, done) {
         if (lcov) {
             done();
