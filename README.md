@@ -10,12 +10,13 @@ Code Example
 
 ### Conversion from SCC to SRT
 
-```javascript
-var captions = require('node-captions'),
-    fs = require('fs');
+```js
+const captions = require('node-captions'),
+const fs = require('fs');
+
 captions.scc.read('path/to/scc/file.scc', {}, function (err, data) {
     if (err) { throw err; }
-    fs.writeFile('path/to/srt/file.srt', captions.srt.generate(captions.scc.toJSON(data), function(err, result) {
+    fs.writeFile('path/to/srt/file.srt', captions.srt.generate(captions.scc.toJSON(data), (err, result) =>  {
         if (err) { throw err; }
     });
 });
@@ -23,14 +24,15 @@ captions.scc.read('path/to/scc/file.scc', {}, function (err, data) {
 
 ### Read SCC adjust by X and write out SRT with adjusted data
 
-```javascript
-var captions = require('node-captions'),
-    fs = require('fs');
-captions.scc.read('path/to/scc/file.scc', {}, function (err, data) {
+```js
+const captions = require('node-captions'),
+const fs = require('fs');
+
+captions.scc.read('path/to/scc/file.scc', {}, (err, data) => {
     if (err) { throw err; }
-    captions.time.adjust('300', 'seconds', captions.scc.toJSON(data), function (err, adjustedCaptions) {
+    captions.time.adjust('300', 'seconds', captions.scc.toJSON(data), (err, adjustedCaptions) => {
         if (err) { throw err; }
-        fs.writeFile('path/to/srt/file.srt', captions.srt.generate(adjustedCaptions), function(err, result) {
+        fs.writeFile('path/to/srt/file.srt', captions.srt.generate(adjustedCaptions), (err, result) => {
             if (err) { throw err; }
         });
     });
@@ -45,17 +47,23 @@ This project was created so a nodeJS application can do stuff with caption files
 Installation
 ------------
 
-`npm install node-captions`
+```bash
+npm install node-captions --save
+```
 
 API Reference
 -------------
 
-`npm jsdoc`
+```bash
+npm jsdoc
+```
 
 Tests
 -----
 
-`npm test`
+```bash
+npm test
+```
 
 Contributors
 ------------
